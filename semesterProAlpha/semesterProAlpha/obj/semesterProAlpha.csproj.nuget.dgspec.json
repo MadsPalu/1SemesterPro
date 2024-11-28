@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\madsp\\source\\repos\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj": {}
+    "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj": {}
   },
   "projects": {
-    "C:\\Users\\madsp\\source\\repos\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj": {
+    "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\madsp\\source\\repos\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj",
+        "projectUniqueName": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj",
         "projectName": "semesterProAlpha",
-        "projectPath": "C:\\Users\\madsp\\source\\repos\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj",
+        "projectPath": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj",
         "packagesPath": "C:\\Users\\madsp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\madsp\\source\\repos\\semesterProAlpha\\semesterProAlpha\\obj\\",
+        "outputPath": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\madsp\\AppData\\Roaming\\NuGet\\NuGet.Config",

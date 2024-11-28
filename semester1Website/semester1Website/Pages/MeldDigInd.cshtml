@@ -1,0 +1,24 @@
+﻿@page
+@model semester1Website.Pages.MeldDigIndModel
+@{
+    ViewData["Title"] = "MeldDigInd";
+}
+
+<p>meld dig ind, wip</p>
+
+<form>
+    <div class="form-group">
+        <label for="medlemNavn">Navn</label>
+        <input type="text" class="form-control" id="navnInput" placeholder="Fulde Navn">
+    </div>
+    <div class="form-group">
+        <label for="medlemMobil">Mobil Nummer</label>
+        <input type="tel" class="form-control" id="mobilInput" placeholder="+45">
+    </div>
+    <div class="form-group">
+        <label for="medlemAddresse">Addresse</label>
+        <input type="text" class="form-control" id="addresseInput" placeholder="Vej, Vejnummer og Postnummer">
+    </div>
+    
+    <button type="submit" id="formBtn" class="btn btn-primary">Godkend</button>
+</form>
