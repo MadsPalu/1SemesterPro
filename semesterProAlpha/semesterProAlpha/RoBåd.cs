@@ -11,8 +11,8 @@ namespace semesterProAlpha
         public int _siddePladser { get; set; }
         public int _antalÅrer { get; set; }
 
-        public RoBåd(string navn, string bådType, string model, int byggeÅr, string mål, int siddePladser, int antalÅrer)
-          : base(navn, bådType, model, byggeÅr, mål)
+        public RoBåd(string navn, string model, int byggeÅr, string mål, int siddePladser, int antalÅrer)
+          : base(navn, "Robåd", model, byggeÅr, mål)
         {
             _siddePladser = siddePladser;
             _antalÅrer = antalÅrer;

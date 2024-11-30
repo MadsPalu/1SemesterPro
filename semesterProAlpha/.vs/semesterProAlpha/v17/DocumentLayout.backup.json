@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semesterproalpha\\semesterproalpha\\medlemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|solutionrelative:semesterproalpha\\medlemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semesterproalpha\\semesterproalpha\\medlem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|solutionrelative:semesterproalpha\\medlem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semesterproalpha\\semesterproalpha\\b\u00E5drepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|solutionrelative:semesterproalpha\\b\u00E5drepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semesterproalpha\\semesterproalpha\\medlemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|solutionrelative:semesterproalpha\\medlemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semesterproalpha\\semesterproalpha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "B\u00E5dRepository.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\B\u00E5dRepository.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\B\u00E5dRepository.cs",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MotorB\u00E5d.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\MotorB\u00E5d.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\MotorB\u00E5d.cs",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "B\u00E5d.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\B\u00E5d.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\B\u00E5d.cs",
@@ -106,30 +106,30 @@
               "RelativeToolTip": "semesterProAlpha\\B\u00E5d.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAuwB0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T16:51:42.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T16:51:42.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MedlemsRepository.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\MedlemsRepository.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\MedlemsRepository.cs",
               "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\MedlemsRepository.cs",
               "RelativeToolTip": "semesterProAlpha\\MedlemsRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA4wBQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T14:55:11.687Z"
+              "WhenOpened": "2024-11-27T14:55:11.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Medlem.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Medlem.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Medlem.cs",
               "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Medlem.cs",
               "RelativeToolTip": "semesterProAlpha\\Medlem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T14:38:57.004Z",
               "EditorCaption": ""

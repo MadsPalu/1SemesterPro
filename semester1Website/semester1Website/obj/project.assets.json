@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\madsp\\source\\repos\\semester1Website\\semester1Website\\semester1Website.csproj",
+      "projectUniqueName": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj",
       "projectName": "semester1Website",
-      "projectPath": "C:\\Users\\madsp\\source\\repos\\semester1Website\\semester1Website\\semester1Website.csproj",
+      "projectPath": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj",
       "packagesPath": "C:\\Users\\madsp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\madsp\\source\\repos\\semester1Website\\semester1Website\\obj\\",
+      "outputPath": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\madsp\\AppData\\Roaming\\NuGet\\NuGet.Config",

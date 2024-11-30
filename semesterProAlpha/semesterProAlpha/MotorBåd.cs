@@ -12,8 +12,8 @@ namespace semesterProAlpha
         public int _hesterkræfter { get; set; }
         public double _liter { get; set; }
 
-        public MotorBåd(string navn, string bådType, string model, int byggeÅr, string mål, string motor, int hestekræfter, double liter) 
-            : base(navn, bådType, model, byggeÅr, mål)
+        public MotorBåd(string navn, string model, int byggeÅr, string mål, string motor, int hestekræfter, double liter) 
+            : base(navn, "Motorbåd", model, byggeÅr, mål)
         {
             _motor = motor;
             _hesterkræfter = _hesterkræfter;

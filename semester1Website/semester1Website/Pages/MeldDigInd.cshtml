@@ -1,24 +1,30 @@
 ﻿@page
+@using semester1Website.Models
 @model semester1Website.Pages.MeldDigIndModel
 @{
-    ViewData["Title"] = "MeldDigInd";
+    ViewData["Title"] = "Meld Dig Ind";
 }
 
 <p>meld dig ind, wip</p>
 
-<form>
+<form method="post">
     <div class="form-group">
         <label for="medlemNavn">Navn</label>
-        <input type="text" class="form-control" id="navnInput" placeholder="Fulde Navn">
+        <input type="text" class="form-control" id="navnInput" asp-for="MedlemNavn" placeholder="Fulde Navn" required>
     </div>
     <div class="form-group">
         <label for="medlemMobil">Mobil Nummer</label>
-        <input type="tel" class="form-control" id="mobilInput" placeholder="+45">
+        <input type="tel" class="form-control" id="mobilInput" asp-for="MedlemMobil" placeholder="+45" required>
     </div>
     <div class="form-group">
         <label for="medlemAddresse">Addresse</label>
-        <input type="text" class="form-control" id="addresseInput" placeholder="Vej, Vejnummer og Postnummer">
+        <input type="text" class="form-control" id="addresseInput" asp-for="MedlemAddresse" placeholder="Vej, Vejnummer og Postnummer" required>
     </div>
-    
     <button type="submit" id="formBtn" class="btn btn-primary">Godkend</button>
 </form>
+
+@if (Model.NewMedlem != null)
+{
+    <h1>Medlem Details</h1>
+    <p>@MedlemsRepository.PrintListe()</p>
+}
