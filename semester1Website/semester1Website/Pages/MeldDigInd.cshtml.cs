@@ -21,7 +21,6 @@ namespace semester1Website.Pages
         //onpost arbejder sammen med method post fra formen, og trigger på submit
         public void OnPost()
         {
-            // Create a new Medlem using the posted data
             NewMedlem = new Medlem(MedlemNavn, MedlemMobil, MedlemAddresse);
             MedlemsRepository.AddMedlem(NewMedlem);
         }

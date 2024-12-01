@@ -1,6 +1,107 @@
 ﻿@page
+@using semester1Website.Models
 @model semester1Website.Pages.BookBådModel
 @{
-    ViewData["Title"] = "MeldDigInd";
+    ViewData["Title"] = "Meld Dig Ind";
 }
-<p>Blog, wip</p>
+
+<p>Book båd, WIP</p>
+
+<h2>Register ny båd</h2>
+
+<!--Dropdown til båd type-->
+<form method="post">
+    <div class="form-group">
+        <label for="båType">Vælg BådType</label>
+        <select class="form-control" id="bådTypeForm" asp-for="ValgtBådType" onchange="hideShowFormFields()">
+            <option value="">-- Vælg en bådtype --</option>
+            @foreach (var bådType in Model.BådTyper)
+            {
+                <option value="@bådType">@bådType</option>
+            }
+        </select>
+    </div>
+
+    <!--General båd form-->
+    <div class="form-group">
+        <label for="bådNavn">Båd navn</label>
+        <input type="text" class="form-control" id="bådNavnInput" asp-for="BådNavn" placeholder="Båd navn" required>
+    </div>
+    <div class="form-group">
+        <label for="bådModel">Båd model</label>
+        <input type="text" class="form-control" id="bådModel" asp-for="BådModel" placeholder="Båd Model" required>
+    </div>
+    <div class="form-group">
+        <label for="byggeår">Byggeår</label>
+        <input type="number" class="form-control" id="bådByggeÅr" asp-for="BådByggeÅr" placeholder="Byggeår" required>
+    </div>
+    <div class="form-group">
+        <label for="bådMål">Båd mål</label>
+        <input type="text" class="form-control" id="bådMål" asp-for="BådMål" placeholder="Længde*Bredde*Højde" required>
+    </div>
+
+    <!--Motorbåd værdier-->
+    <div id="motorbådVærdier" style="display: none;">
+        <div class="form-group">
+            <label for="Motor">Motor</label>
+            <input type="text" class="form-control" id="motor" asp-for="Motor" placeholder="Motor">
+        </div>
+        <div class="form-group">
+            <label for="hestekræfter">Hestekræfter</label>
+            <input type="number" class="form-control" id="hæstekræfter" asp-for="Hæstekrafter" placeholder="Hestekræfter">
+        </div>
+        <div class="form-group">
+            <label for="liter">Liter</label>
+            <input type="number" class="form-control" id="liter" asp-for="Liter" placeholder="Liter">
+        </div>
+    </div>
+
+    <!--Sejlbåd værdier-->
+    <div id="sejlbådVærdier" style="display: none;">
+        <div class="form-group">
+            <label for="antalSejl">Antal Sejl</label>
+            <input type="number" class="form-control" id="antalSejl" asp-for="AntalSejl" placeholder="Antal sejl">
+        </div>
+        <div class="form-group">
+            <label for="maksSejlBredde">Maks sejl bredde</label>
+            <input type="number" class="form-control" id="maksSejlBredde" asp-for="MaksSejlBredde" placeholder="Maks sejl bredde">
+        </div>
+    </div>
+
+    <!--Robåd værdier-->
+    <div id="robådVærdier" style="display: none;">
+        <div class="form-group">
+            <label for="sidderpladser">Siddepladser</label>
+            <input type="number" class="form-control" id="siddePladser" asp-for="SiddePladser" placeholder="Antal side pladser">
+        </div>
+        <div class="form-group">
+            <label for="antalÅrer">Årer</label>
+            <input type="number" class="form-control" id="antalÅrer" asp-for="AntalÅrer" placeholder="Antal årer">
+        </div>
+    </div>
+
+    <button type="submit" id="formBtn" class="btn btn-primary">Godkend</button>
+</form>
+
+
+    <h1>Båd Liste</h1>
+    <p>@BådRepository.PrintListe()</p>
+
+<script>
+    //overvej at lav dedikeret fil til js og ryk style display:none til css.
+    function hideShowFormFields() {
+        var selectedType = document.getElementById("bådTypeForm").value;
+
+        document.getElementById("motorbådVærdier").style.display = "none";
+        document.getElementById("sejlbådVærdier").style.display = "none";
+        document.getElementById("robådVærdier").style.display = "none";
+
+        if (selectedType === "Motorbåd") {
+            document.getElementById("motorbådVærdier").style.display = "block";
+        } else if (selectedType === "Sejlbåd") {
+            document.getElementById("sejlbådVærdier").style.display = "block";
+        } else if (selectedType === "Robåd") {
+            document.getElementById("robådVærdier").style.display = "block";
+        }
+    }
+</script>
