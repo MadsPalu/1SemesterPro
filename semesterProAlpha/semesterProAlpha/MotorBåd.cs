@@ -9,14 +9,14 @@ namespace semesterProAlpha
     public class MotorBåd : Båd
     {
         public string _motor { get; set; }
-        public int _hesterkræfter { get; set; }
+        public int _hestekræfter { get; set; }
         public double _liter { get; set; }
 
         public MotorBåd(string navn, string model, int byggeÅr, string mål, string motor, int hestekræfter, double liter) 
             : base(navn, "Motorbåd", model, byggeÅr, mål)
         {
             _motor = motor;
-            _hesterkræfter = _hesterkræfter;
+            _hestekræfter = hestekræfter;
             _liter = liter;
         }
 
@@ -24,7 +24,7 @@ namespace semesterProAlpha
         public override string ToString()
         {
             string baseInfo = base.ToString();
-            return $"{baseInfo}, Motor: {_motor}, Hestekræfter: {_hesterkræfter}, Liter: {_liter}";
+            return $"{baseInfo}, Motor: {_motor}, Hestekræfter: {_hestekræfter}, Liter: {_liter}";
         }
     }
 }
