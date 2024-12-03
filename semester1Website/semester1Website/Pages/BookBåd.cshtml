@@ -12,32 +12,32 @@
 <!--Dropdown til båd type-->
 <form method="post">
     <div class="form-group">
-        <label for="båType">Vælg BådType</label>
-        <select class="form-control" id="bådTypeForm" asp-for="ValgtBådType" onchange="hideShowFormFields()">
-            <option value="">-- Vælg en bådtype --</option>
-            @foreach (var bådType in Model.BådTyper)
+        <label for="båType">Vælg boatType</label>
+        <select class="form-control" id="boatTypeForm" asp-for="ValgtboatType" onchange="hideShowFormFields()">
+            <option value="">-- Vælg en boatType --</option>
+            @foreach (var boatType in Model.boatTyper)
             {
-                <option value="@bådType">@bådType</option>
+                <option value="@boatType">@boatType</option>
             }
         </select>
     </div>
 
     <!--General båd form-->
     <div class="form-group">
-        <label for="bådNavn">Båd navn</label>
-        <input type="text" class="form-control" id="bådNavnInput" asp-for="BådNavn" placeholder="Båd navn" required>
+        <label for="bådname">Båd name</label>
+        <input type="text" class="form-control" id="bådnameInput" asp-for="Bådname" placeholder="Båd name" required>
     </div>
     <div class="form-group">
         <label for="bådModel">Båd model</label>
         <input type="text" class="form-control" id="bådModel" asp-for="BådModel" placeholder="Båd Model" required>
     </div>
     <div class="form-group">
-        <label for="byggeår">Byggeår</label>
-        <input type="number" class="form-control" id="bådByggeÅr" asp-for="BådByggeÅr" placeholder="Byggeår" required>
+        <label for="buildYear">buildYear</label>
+        <input type="number" class="form-control" id="bådbuildYear" asp-for="BådbuildYear" placeholder="buildYear" required>
     </div>
     <div class="form-group">
-        <label for="bådMål">Båd mål</label>
-        <input type="text" class="form-control" id="bådMål" asp-for="BådMål" placeholder="Længde*Bredde*Højde" required>
+        <label for="båddimensions">Båd dimensions</label>
+        <input type="text" class="form-control" id="båddimensions" asp-for="Båddimensions" placeholder="Længde*Bredde*Højde" required>
     </div>
 
     <!--Motorbåd værdier-->
@@ -85,12 +85,12 @@
 
 
     <h1>Båd Liste</h1>
-    <p>@BådRepository.PrintListe()</p>
+    <p>@BoatRepository.PrintList()</p>
 
 <script>
     //overvej at lav dedikeret fil til js og ryk style display:none til css.
     function hideShowFormFields() {
-        var selectedType = document.getElementById("bådTypeForm").value;
+        var selectedType = document.getElementById("boatTypeForm").value;
 
         document.getElementById("motorbådVærdier").style.display = "none";
         document.getElementById("sejlbådVærdier").style.display = "none";

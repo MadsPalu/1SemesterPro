@@ -7,8 +7,8 @@ namespace semester1Website.Pages
 {
     public class BookBådModel : PageModel
     {
-        // List of available båd types
-        public List<string> BådTyper { get; private set; } = new List<string>
+        //List af både
+        public List<string> boatTyper { get; private set; } = new List<string>
         {
             "Motorbåd",
             "Sejlbåd",
@@ -17,20 +17,20 @@ namespace semester1Website.Pages
 
         // Selected båd type from dropdown
         [BindProperty]
-        public string ValgtBådType { get; set; }
+        public string ValgtboatType { get; set; }
 
         //Generale båd værdier
         [BindProperty]
-        public string BådNavn { get; set; }
+        public string Bådname { get; set; }
 
         [BindProperty]
         public string BådModel { get; set; }
 
         [BindProperty]
-        public int BådByggeÅr { get; set; }
+        public int BådbuildYear { get; set; }
 
         [BindProperty]
-        public string BådMål { get; set; }
+        public string Båddimensions { get; set; }
 
         //Motorbåd værdier
         [BindProperty]
@@ -58,21 +58,21 @@ namespace semester1Website.Pages
 
         public void OnPost()
         {
-            if (!string.IsNullOrEmpty(ValgtBådType))
+            if (!string.IsNullOrEmpty(ValgtboatType))
             {
-                switch (ValgtBådType)
+                switch (ValgtboatType)
                 {
                     case "Motorbåd":
-                        MotorBåd motorBåd = new MotorBåd(BådNavn, BådModel, BådByggeÅr, BådMål, Motor, Hæstekrafter, Liter);
-                        BådRepository.AddBåd(motorBåd);
+                        MotorBoat motorBåd = new MotorBoat(Bådname, BådModel, BådbuildYear, Båddimensions, Motor, Hæstekrafter, Liter);
+                        BoatRepository.AddBoat(motorBåd);
                         break;
                     case "Sejlbåd":
-                        SejlBåd sejlBåd = new SejlBåd(BådNavn, BådModel, BådByggeÅr, BådMål, AntalSejl, MaksSejlBredde);
-                        BådRepository.AddBåd(sejlBåd);
+                        SailBoat sejlBåd = new SailBoat(Bådname, BådModel, BådbuildYear, Båddimensions, AntalSejl, MaksSejlBredde);
+                        BoatRepository.AddBoat(sejlBåd);
                         break;
                     case "Robåd":
-                        RoBåd roBåd = new RoBåd(BådNavn, BådModel, BådByggeÅr, BådMål, SiddePladser, AntalÅrer);
-                        BådRepository.AddBåd(roBåd);
+                        RowBoat roBåd = new RowBoat(Bådname, BådModel, BådbuildYear, Båddimensions, SiddePladser, AntalÅrer);
+                        BoatRepository.AddBoat(roBåd);
                         break;
                 }
             }
