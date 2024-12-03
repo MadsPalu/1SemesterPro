@@ -9,8 +9,8 @@
 
 <form method="post">
     <div class="form-group">
-        <label for="medlemNavn">Navn</label>
-        <input type="text" class="form-control" id="navnInput" asp-for="MedlemNavn" placeholder="Fulde Navn" required>
+        <label for="medlemname">name</label>
+        <input type="text" class="form-control" id="nameInput" asp-for="Medlemname" placeholder="Fulde name" required>
     </div>
     <div class="form-group">
         <label for="medlemMobil">Mobil Nummer</label>
@@ -26,5 +26,5 @@
 @if (Model.NewMedlem != null)
 {
     <h1>Medlem Details</h1>
-    <p>@MedlemsRepository.PrintListe()</p>
+    <p>@MemberRepository.PrintList()</p>
 }

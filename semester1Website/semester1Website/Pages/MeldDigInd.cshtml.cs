@@ -8,7 +8,7 @@ namespace semester1Website.Pages
     {
         //læs op på bindproperty, virker ikke rigtig uden, men ved ikke hvorfor
         [BindProperty]
-        public string MedlemNavn { get; set; }
+        public string Medlemname { get; set; }
 
         [BindProperty]
         public string MedlemMobil { get; set; }
@@ -16,13 +16,13 @@ namespace semester1Website.Pages
         [BindProperty]
         public string MedlemAddresse { get; set; }
 
-        public Medlem NewMedlem { get; private set; }
+        public Member NewMedlem { get; private set; }
 
         //onpost arbejder sammen med method post fra formen, og trigger på submit
         public void OnPost()
         {
-            NewMedlem = new Medlem(MedlemNavn, MedlemMobil, MedlemAddresse);
-            MedlemsRepository.AddMedlem(NewMedlem);
+            NewMedlem = new Member(Medlemname, MedlemMobil, MedlemAddresse);
+            MemberRepository.AddMember(NewMedlem);
         }
     }
 }

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5do4INAl0OQ=",
+  "dgSpecHash": "RLZYr3fnayk=",
   "success": true,
-  "projectFilePath": "/Users/frederik/Documents/GitHub/1SemesterPro/semester1Website/semester1Website/semester1Website.csproj",
-  "expectedPackageFiles": [
-    "/Users/frederik/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
-    "/Users/frederik/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
-    "/Users/frederik/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.11/microsoft.netcore.app.host.osx-x64.8.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
