@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/frederik/Documents/GitHub/1SemesterPro/semester1Website/semester1Website/semester1Website.csproj": {}
+    "C:\\Users\\frede\\OneDrive\\Dokumenter\\GitHub\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj": {}
   },
   "projects": {
-    "/Users/frederik/Documents/GitHub/1SemesterPro/semester1Website/semester1Website/semester1Website.csproj": {
+    "C:\\Users\\frede\\OneDrive\\Dokumenter\\GitHub\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/frederik/Documents/GitHub/1SemesterPro/semester1Website/semester1Website/semester1Website.csproj",
+        "projectUniqueName": "C:\\Users\\frede\\OneDrive\\Dokumenter\\GitHub\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj",
         "projectName": "semester1Website",
-        "projectPath": "/Users/frederik/Documents/GitHub/1SemesterPro/semester1Website/semester1Website/semester1Website.csproj",
-        "packagesPath": "/Users/frederik/.nuget/packages/",
-        "outputPath": "/Users/frederik/Documents/GitHub/1SemesterPro/semester1Website/semester1Website/obj/",
+        "projectPath": "C:\\Users\\frede\\OneDrive\\Dokumenter\\GitHub\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj",
+        "packagesPath": "C:\\Users\\frede\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\frede\\OneDrive\\Dokumenter\\GitHub\\1SemesterPro\\semester1Website\\semester1Website\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/frederik/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\frede\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,20 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -77,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,48 @@
 ﻿@page
 @model semester1Website.Pages.BlogModel
 @{
-    ViewData["Title"] = "Blog";
+    ViewData["Title"] = "Edit Blog Post";
 }
-<p>Blog, wip</p>
+<h1>Blog</h1>
+
+<div class="row">
+    <div class="col col-lg-4 card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Blog Titel</h5>
+            <p class="card-text">Blog Instruktioner</p>
+            <a href="#" class="btn btn-primary">Læs Mere</a>
+        </div>
+    </div>
+</div>
+
+
+<h2>Lav nyt opslag</h2>
+
+<form method="post" asp-page-handler="Edit">
+    <div class="form-group">
+        <label asp-for="Title">Titel</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="UploadedImage">Indsæt billede</label>
+        <input asp-for="UploadedImage" class="form-control" />
+    </div>
+    @if (!string.IsNullOrEmpty(Model.ImagePath))
+    {
+        <div class="form-group"#>
+            <img src="@Model.ImagePath" alt="Uploaded Image" style="max-width: 100%; height: auto;" />
+        </div>
+    }
+    <div class="form-group">
+        <label asp-for="Description">Beskrivelse</label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+
+<!-- @if (Model.FormandNavn != null)
+{
+    <h1>Formand Details</h1>
+    <p>@Model.FormandNavn</p>
+} 
+-->
