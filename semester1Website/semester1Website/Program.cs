@@ -1,3 +1,5 @@
+using semester1Website.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,5 +23,9 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+//loader Json filer til repos
+MemberRepository.LoadFromFile();
+BoatRepository.LoadFromFile();
 
 app.Run();

@@ -1,8 +1,11 @@
-﻿namespace semester1Website.Models
+﻿using System.Text.Json;
+
+namespace semester1Website.Models
 {
     public static class BoatRepository
     {
         private static Dictionary<int, Boat> BoatList = new Dictionary<int, Boat>();
+        private static string FilePath = "boatData.json";
 
         //lav exeption Boat allerede i List.
         public static void AddBoat(Boat Boat)
@@ -31,6 +34,27 @@
         public static void RemoveBoat(int id)
         {
             BoatList.Remove(id);
+        }
+
+        //læs kommentar i memberlist for beskrivelse
+        public static void SaveToFile()
+        {
+            string json = JsonSerializer.Serialize(BoatList);
+            File.WriteAllText(FilePath, json);
+        }
+
+        public static void LoadFromFile()
+        {
+            if (File.Exists(FilePath))
+            {
+                string json = File.ReadAllText(FilePath);
+                BoatList = JsonSerializer.Deserialize<Dictionary<int, Boat>>(json);
+
+                if (BoatList.Count > 0)
+                {
+                    Member.MemberNumberCounter = BoatList.Keys.Max() + 1;
+                }
+            }
         }
     }
 }
