@@ -11,6 +11,7 @@ namespace semester1Website.Models
     {
         public int Id { get; set; }
         public string Name { get; set; } 
+        public bool IsLoggedIn { get; set; }
 
         public ChairMan(int id, string name)
         {
@@ -22,9 +23,7 @@ namespace semester1Website.Models
         {
             return $"Name : {Name}, ID : {Id}";
         }
-
-        public bool IsLoggedIn { get; set; }
-
+        
         public Member ChairManLogIn(string id, string name)
         {
             if (id == null) throw new ArgumentNullException(nameof(id), "ID cannot be null");

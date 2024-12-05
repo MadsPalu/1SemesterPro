@@ -1,44 +1,46 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using semester1Website.Models;
 
 namespace semester1Website.Pages
 {
     public class BlogModel : PageModel
     {   
 
-        private readonly IWebHostEnvironment _environment;
+        /*private readonly IWebHostEnvironment _environment;
         public BlogModel (IWebHostEnvironment environment)
         {
             _environment = environment;
-        }
-
+        }*/
+        
+        
         [BindProperty]
         public string Title { get; set; }
         [BindProperty]
-        public string FormandNavn { get; set; }
+        public string ChairMan { get; set; }
         [BindProperty]
         public string ImagePath { get; set; }
         [BindProperty]
         public string Description { get; set; }
         public IFormFile UploadedImage { get; set; }
         
-        /* Skal vist lige have lavet en class til Formand :=)
-        public Formand NewFormand { get; set; }
-    
+        
+        public ChairMan newChairMan { get; set; }
         public void OnPost()
         {
-            NewFormand = new Formand(FormandNavn);
-            FormandNavnsRepository.AddFormand(NewFormand);
-        }*/
+            newChairMan = new ChairMan(1, "Bob");
+        }
         
-        public IActionResult OnPostEdit(string title, string formandNavn, string imagePath, string description)
+        public IActionResult OnPostEdit(string title, string chairMan, string imagePath, string description)
         {
             Title = title;
-            FormandNavn = formandNavn;
+            ChairMan = chairMan;
             ImagePath = imagePath;
             Description = description;
             return Page();
         }
+
+        
 
         
 
@@ -64,14 +66,7 @@ namespace semester1Website.Pages
         */
         
 
-        /* ved ikke ligeee hvordan man skal gøre så man skal logge ind for at skrive, men tænker det noget i denne retning
-        public BlogModel(string CurrentUser)
-        {
-            if(CurrentUser != ChairmanName)
-            {
-                Console.WriteLine("Du kan ikke redigere");
-            }
-        }   */
+        
     }
 }
 

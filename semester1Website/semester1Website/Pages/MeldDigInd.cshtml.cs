@@ -6,9 +6,9 @@ namespace semester1Website.Pages
 {
     public class MeldDigIndModel : PageModel
     {
-        //læs op på bindproperty, virker ikke rigtig uden, men ved ikke hvorfor
+        //lï¿½s op pï¿½ bindproperty, virker ikke rigtig uden, men ved ikke hvorfor
         [BindProperty]
-        public string Medlemname { get; set; }
+        public string MedlemName { get; set; }
 
         [BindProperty]
         public string MedlemMobil { get; set; }
@@ -18,10 +18,10 @@ namespace semester1Website.Pages
 
         public Member NewMedlem { get; private set; }
 
-        //onpost arbejder sammen med method post fra formen, og trigger på submit
+        //onpost arbejder sammen med method post fra formen, og trigger pï¿½ submit
         public void OnPost()
         {
-            NewMedlem = new Member(Medlemname, MedlemMobil, MedlemAddresse);
+            NewMedlem = new Member(MedlemName, MedlemMobil, MedlemAddresse);
             MemberRepository.AddMember(NewMedlem);
         }
     }
