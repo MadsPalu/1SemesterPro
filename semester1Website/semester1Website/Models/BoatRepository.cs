@@ -11,6 +11,7 @@ namespace semester1Website.Models
         public static void AddBoat(Boat Boat)
         {
            BoatList.Add(Boat.GetId(), Boat);
+           SaveToFile();
         }
 
         public static string PrintList()
@@ -34,6 +35,7 @@ namespace semester1Website.Models
         public static void RemoveBoat(int id)
         {
             BoatList.Remove(id);
+            SaveToFile();
         }
 
         //læs kommentar i memberlist for beskrivelse
@@ -52,7 +54,7 @@ namespace semester1Website.Models
 
                 if (BoatList.Count > 0)
                 {
-                    Member.MemberNumberCounter = BoatList.Keys.Max() + 1;
+                    Boat.IdCounter = BoatList.Keys.Max() + 1;
                 }
             }
         }
