@@ -5,18 +5,20 @@ using System.Xml.Linq;
 
 namespace semester1Website.Models
 {
-    public class Member
+    public class Member : ChairMan
     {
         public static int MemberNumberCounter { get; set; } = 1;
-        public string Name { get; set; }
+        public string MemberName { get; set; }
         public string Mobile { get; set; }
         public string Address { get; set; }
         public int MemberNumber { get; set; }
 
-        public Member(string name, string mobile, string address)
+
+        public Member(string memberName, string mobile, string address)
+        : base(MemberNumberCounter, memberName)
         {
             MemberNumber = MemberNumberCounter++;
-            Name = name;
+            MemberName = memberName;
             Mobile = mobile;
             Address = address;
         }
@@ -24,7 +26,7 @@ namespace semester1Website.Models
         //eventuelt bare lav override på tostring
         public override string ToString()
         {
-            return $"Name: {Name}, Mobile: {Mobile} address: {Address}";
+            return $"Name: {MemberName}, Mobile: {Mobile} address: {Address}";
         }
 
         public int GetMemberNumber()
@@ -32,9 +34,9 @@ namespace semester1Website.Models
             return MemberNumber;
         }
 
-        public void ChangeName(string name)
+        public void ChangeName(string memberName)
         {
-            Name = name;
+            MemberName = memberName;
         }
 
         public void ChangeMobile(string mobile)
