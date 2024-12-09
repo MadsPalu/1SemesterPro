@@ -4,70 +4,70 @@ using semester1Website.Models;
 
 namespace semester1Website.Pages
 {
-    public class BlogModel : PageModel
-    {   
+    public class BlogPostModel : PageModel
+{
+    //giver adgang /wwwroot så man kan gemme billeder/filer
+    private readonly IWebHostEnvironment _environment;
 
-        /*private readonly IWebHostEnvironment _environment;
-        public BlogModel (IWebHostEnvironment environment)
-        {
-            _environment = environment;
-        }*/
-        
-        
-        [BindProperty]
-        public string Title { get; set; }
-        [BindProperty]
-        public string ChairMan { get; set; }
-        [BindProperty]
-        public string ImagePath { get; set; }
-        [BindProperty]
-        public string Description { get; set; }
-        public IFormFile UploadedImage { get; set; }
-        
-        
-        public ChairMan newChairMan { get; set; }
-        public void OnPost()
-        {
-            newChairMan = new ChairMan(1, "Bob");
-        }
-        
-        public IActionResult OnPostEdit(string title, string chairMan, string imagePath, string description)
-        {
-            Title = title;
-            ChairMan = chairMan;
-            ImagePath = imagePath;
-            Description = description;
-            return Page();
-        }
+    #region Properties
+    [BindProperty]
+    public string Title { get; set; }
 
-        
+    [BindProperty]
+    public string ChairMan { get; set; }
 
-        
+    [BindProperty]
+    public IFormFile UploadedImage { get; set; }
 
+    [BindProperty]
+    public string Description { get; set; }
 
-        /* Det her er totalt fra chatten, men der står man gerne skulle kunne uploade et billede :D
-        public async Task<IActionResult> OnPostUploadAsync()
-        {
-            if (UploadedImage != null && UploadedImage.Length > 0)
-            {
-                var uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
-                var uniqueFileName = Guid.NewGuid().ToString() + "_" + UploadedImage.FileName;
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+    public string ImagePath { get; set; }
+    #endregion 
 
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                    await UploadedImage.CopyToAsync(fileStream);
-                }
+    //Nested BlogPost property, skal bruges til at store data om blogposten
+    public BlogPostModel BlogPost { get; set; }
 
-                ImagePath = "/uploads/" + uniqueFileName;
-            }
-            return Page();
-        }
-        */
-        
-
-        
+    #region Methods
+    public void OnGet()
+    {
+        BlogPost = new BlogPostModel(); // Undgå null reference
     }
+
+    public IActionResult OnPostEdit()
+    {
+        if (!ModelState.IsValid)
+        {
+            return Page();
+        }
+
+        if (UploadedImage != null)
+        {
+            var uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+            var uniqueFileName = Guid.NewGuid().ToString() + "_" + UploadedImage.FileName;
+            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                UploadedImage.CopyTo(stream);
+            }
+
+            ImagePath = $"/uploads/{uniqueFileName}";
+        }
+    #endregion
+
+    //ny BlogPost objekt
+    BlogPost = new BlogPostModel
+        {
+            Title = Title,
+            ChairMan = ChairMan,
+            ImagePath = ImagePath,
+            Description = Description
+        };
+
+        return Page();
+    }
+}
 }
 
     

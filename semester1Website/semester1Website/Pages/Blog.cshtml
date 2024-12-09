@@ -1,5 +1,5 @@
 ﻿@page
-@model semester1Website.Pages.BlogModel
+@model semester1Website.Pages.BlogPostModel
 @{
     ViewData["Title"] = "Edit Blog Post";
 }
@@ -9,40 +9,51 @@
     <div class="col col-lg-4 card" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-title">Blog Titel</h5>
-            <p class="card-text">Blog Instruktioner</p>
-            <a href="#" class="btn btn-primary">Læs Mere</a>
         </div>
     </div>
 </div>
 
 
 <h2>Lav nyt opslag</h2>
-
 <form method="post" asp-page-handler="Edit">
     <div class="form-group">
         <label asp-for="Title">Titel</label>
-        <input asp-for="Title" class="form-control" />
+        <input asp-for="Title" class="form-control" placeholder="Indtast titel.." />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ChairMan">Navn</label>
+        <input asp-for="ChairMan" class="form-control" placeholder="Indtast navn.." />
+        <span asp-validation-for="ChairMan" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="UploadedImage">Indsæt billede</label>
         <input asp-for="UploadedImage" class="form-control" />
+        <span asp-validation-for="UploadedImage" class="text-danger"></span>
     </div>
+
     @if (!string.IsNullOrEmpty(Model.ImagePath))
     {
         <div class="form-group"#>
             <img src="@Model.ImagePath" alt="Uploaded Image" style="max-width: 100%; height: auto;" />
         </div>
     }
+
     <div class="form-group">
         <label asp-for="Description">Beskrivelse</label>
-        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <textarea asp-for="Description" class="form-control" id="Beskrivelse" placeholder="Indtast beskrivelse.." required rows="4"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <button type="submit" id="formBtn" class="btn btn-primary">Save Changes</button>
 </form>
 
-<!-- @*if (Model.FormandNavn != null)
+@if (Model.BlogPost != null)
 {
-    <h1>Formand Details</h1>
-    <p>@Model.FormandNavn</p>*@
-} 
--->
+    <h3>Opslag</h3>
+    <p>Title: @Model.BlogPost.Title</p>
+    <p>Chairman: @Model.BlogPost.ChairMan</p>
+    <p>Description: @Model.BlogPost.Description</p>
+    @if (!string.IsNullOrEmpty(Model.BlogPost.ImagePath))
+    {
+        <img src="@Model.BlogPost.ImagePath" alt="Blog Post Image" style="max-width: 100%; height: auto;" />
+    }
+}
