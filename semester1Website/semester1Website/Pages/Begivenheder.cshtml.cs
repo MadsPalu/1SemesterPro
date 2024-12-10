@@ -5,10 +5,13 @@ namespace semester1Website.Pages
 {
     public class BegivenhederModel : PageModel
     {
-        
+        [BindProperty]
         public string Date { get; set; } 
+        [BindProperty]
         public string Title { get; set; }
+        [BindProperty]
         public string Description { get; set; }
+        [BindProperty]
         public string Location { get; set; } 
 
         public static void DateTime()

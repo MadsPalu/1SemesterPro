@@ -12,12 +12,24 @@ namespace semester1Website.Models
         public int Id { get; set; }
         public string Name { get; set; } 
         public bool IsLoggedIn { get; set; }
+        public Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
 
         public ChairMan(int id, string name)
         {
             Id = id;
             Name = name;
         }
+
+        /*public ChairMan GetChairmanLog(int id)
+        {
+            string chairMan = "";
+            Console.WriteLine("Chairman:");
+            foreach (KeyValuePair<int, ChairMan> chairman in chairManLog)
+            {
+                chairMan += ($"{chairman.Value.ToString()} ");
+            }
+            return chairManLog[id];
+        }*/
 
         public string GetChairmanInfo()
         {

@@ -22,3 +22,11 @@
     </div>
     <button type="submit" class="btn btn-primary">Gem begivenhed</button>
 </form>
+
+@if (Model.NewEvent != null)
+{
+    <h3>Begivenhed</h3>
+    <p>Titel: @Model.Title</p>
+    <p>Dato: @Model.Date</p>
+    <p>Beskrivelse: @Model.Description</p>
+}
