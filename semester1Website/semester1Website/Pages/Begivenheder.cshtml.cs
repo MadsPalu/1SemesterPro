@@ -14,10 +14,6 @@ namespace semester1Website.Pages
         [BindProperty]
         public string Location { get; set; } 
 
-        public static void DateTime()
-        {
-            
-        }
 
         public Event NewEvent { get; private set;}
         public void OnPost()
