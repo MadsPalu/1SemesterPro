@@ -8,7 +8,7 @@
         //skal kun være på nedarvet klasser af både der er "motorbåde", andre ex. robåde sejlbåde.
         //public string _motor { get; set; }
 
-        public static int IdCounter = 1;
+        public static int IdCounter = BoatRepository.JsonHandler.Counter;
        //tror måske det skulle have være det jeg har kaldt antalSejl i sejlbåd, tænkte sejlnummer var en slags IdCounter.
         public int Id { get; set; }
         public int BuildYear { get; set; }

@@ -5,6 +5,7 @@ namespace semester1Website.Models
     public class JsonHandler<T>
     {
         public string FilePath { get; set; }
+        public int Counter {  get; set; }
 
 
         public JsonHandler(string filePath) 
@@ -24,15 +25,7 @@ namespace semester1Website.Models
                 loadList = JsonSerializer.Deserialize<Dictionary<int, T>>(json);
 
                 //Gemmer tæleren til membercounter, ved at tælle antelet af keys i memberlisten efter den er loaded fra json
-                if (loadList.Count > 0 && typeof(T) == typeof(Member))
-                {
-                    Member.MemberNumberCounter = loadList.Keys.Max() + 1;
-                }
-
-                if (loadList.Count > 0 && typeof(T) == typeof(Boat))
-                {
-                    Boat.IdCounter = loadList.Keys.Max() + 1;
-                }
+                Counter = loadList.Keys.Max() + 1;
             }
             return loadList;
         }

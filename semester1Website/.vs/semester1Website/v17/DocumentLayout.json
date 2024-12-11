@@ -142,25 +142,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Program.cs",
-              "RelativeDocumentMoniker": "semester1Website\\Program.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Program.cs",
-              "RelativeToolTip": "semester1Website\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAMwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:11:59.703Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 9,
@@ -171,8 +154,7 @@
               "RelativeToolTip": "semester1Website\\Models\\Boat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:04:21.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T14:04:21.709Z"
             },
             {
               "$type": "Document",
@@ -184,8 +166,7 @@
               "RelativeToolTip": "semester1Website\\Models\\ChairMan.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:42:05.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:42:05.805Z"
             },
             {
               "$type": "Document",
@@ -197,8 +178,7 @@
               "RelativeToolTip": "semester1Website\\Models\\MedlemsRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:20:43.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:20:43.833Z"
             },
             {
               "$type": "Document",
@@ -210,8 +190,7 @@
               "RelativeToolTip": "semester1Website\\Models\\MemberRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T19:16:33.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T19:16:33.331Z"
             },
             {
               "$type": "Document",
@@ -223,8 +202,7 @@
               "RelativeToolTip": "semester1Website\\memberData.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-05T11:21:53.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:21:53.629Z"
             },
             {
               "$type": "Document",
@@ -234,10 +212,26 @@
               "RelativeDocumentMoniker": "semester1Website\\Models\\JsonHandler.cs",
               "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\JsonHandler.cs",
               "RelativeToolTip": "semester1Website\\Models\\JsonHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T14:34:58.926Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Program.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Program.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Program.cs",
+              "RelativeToolTip": "semester1Website\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:11:59.703Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -249,8 +243,7 @@
               "RelativeToolTip": "semester1Website\\Models\\BoatRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:04:17.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T14:04:17.685Z"
             },
             {
               "$type": "Document",
@@ -262,8 +255,7 @@
               "RelativeToolTip": "semester1Website\\Models\\B\u00E5dRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:31:30.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:31:30.831Z"
             },
             {
               "$type": "Document",
@@ -275,8 +267,7 @@
               "RelativeToolTip": "semester1Website\\Pages\\Blog.cshtml.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:39:27.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T16:39:27.911Z"
             },
             {
               "$type": "Document",
@@ -288,8 +279,7 @@
               "RelativeToolTip": "semester1Website\\Pages\\MeldDigInd.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T14:49:44.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T14:49:44.725Z"
             },
             {
               "$type": "Document",
@@ -301,8 +291,7 @@
               "RelativeToolTip": "semester1Website\\Models\\Medlem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:00:51.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T19:00:51.985Z"
             },
             {
               "$type": "Document",
@@ -314,8 +303,7 @@
               "RelativeToolTip": "semester1Website\\boatData.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-05T16:47:25.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T16:47:25.113Z"
             },
             {
               "$type": "Document",
@@ -327,8 +315,7 @@
               "RelativeToolTip": "semester1Website\\Pages\\MeldDigInd.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T18:28:34.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T18:28:34.646Z"
             },
             {
               "$type": "Document",
@@ -340,8 +327,7 @@
               "RelativeToolTip": "semester1Website\\Pages\\Blog.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T14:51:07.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T14:51:07.91Z"
             },
             {
               "$type": "Document",
@@ -353,8 +339,7 @@
               "RelativeToolTip": "semester1Website\\Models\\Member.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:20:43.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T15:20:43.425Z"
             },
             {
               "$type": "Document",
@@ -366,8 +351,7 @@
               "RelativeToolTip": "semester1Website\\Models\\MotorB\u00E5d.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:46:51.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T14:46:51.391Z"
             },
             {
               "$type": "Document",

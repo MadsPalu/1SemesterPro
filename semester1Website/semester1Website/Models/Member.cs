@@ -7,7 +7,7 @@ namespace semester1Website.Models
 {
     public class Member : ChairMan
     {
-        public static int MemberNumberCounter { get; set; } = 1;
+        public static int MemberNumberCounter { get; set; } = MemberRepository.JsonHandler.Counter;
         public string MemberName { get; set; }
         public string Mobile { get; set; }
         public string Address { get; set; }
