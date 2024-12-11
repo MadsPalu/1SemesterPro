@@ -8,7 +8,8 @@ namespace semester1Website.Pages
 {
     //giver adgang /wwwroot så man kan gemme billeder/filer
     private readonly IWebHostEnvironment _environment;
-
+    
+    
     #region Properties
     [BindProperty]
     public string Title { get; set; }
