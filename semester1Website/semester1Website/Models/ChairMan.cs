@@ -13,7 +13,6 @@ namespace semester1Website.Models
         public string Name { get; set; } 
         public bool IsLoggedIn { get; set; }
         public Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
-
         public ChairMan(int id, string name)
         {
             Id = id;

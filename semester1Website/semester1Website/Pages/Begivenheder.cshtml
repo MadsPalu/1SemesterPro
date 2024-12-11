@@ -7,18 +7,24 @@
 
 <form method="post">
     <div class="form-group">
-        <label for="Title">Titel</label>
-        <input type="text" class="form-control" id="Title" placeholder="Titel">
+        <label asp-for="Title">Titel</label>
+        <input asp-for="Title" class="form-control" placeholder="Titel">
         <span asp-validation-for="Title" class="text-danger"></span>
     </div>
-    <div class="form-group"
-        <label for="Date">Dato</label>
-        <input type="=Date" class="form-control" id="dato" placeholder="yyyy-mm-dd">
-        <span asp-validation-for="Date" class="text-danger"></span>
     <div class="form-group">
-        <label for="Description">Beskrivelse</label>
-        <textarea class="form-control" id="beskrivelse" rows="3" placeholder="Beskrivelse"></textarea>
+        <label asp-for="Date">Dato</label>
+        <input type="date" asp-for="Date" class="form-control" placeholder="yyyy-mm-dd">
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Beskrivelse</label>
+        <textarea asp-for="Description" class="form-control" rows="3" placeholder="Beskrivelse"></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Location">Lokation</label>
+        <input asp-for="Location" class="form-control" placeholder="Lokation">
+        <span asp-validation-for="Location" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Gem begivenhed</button>
 </form>
@@ -26,7 +32,8 @@
 @if (Model.NewEvent != null)
 {
     <h3>Begivenhed</h3>
-    <p>Titel: @Model.Title</p>
-    <p>Dato: @Model.Date</p>
-    <p>Beskrivelse: @Model.Description</p>
+    <p>Titel: @Model.NewEvent.Title</p>
+    <p>Dato: @Model.NewEvent.Date</p>
+    <p>Beskrivelse: @Model.NewEvent.Description</p>
+    <p>Lokation: @Model.NewEvent.Location</p>
 }

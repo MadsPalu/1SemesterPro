@@ -49,9 +49,9 @@
 @if (Model.BlogPost != null)
 {
     <h3>Opslag</h3>
-    <p>Title: @Model.BlogPost.Title</p>
-    <p>Chairman: @Model.BlogPost.ChairMan</p>
-    <p>Description: @Model.BlogPost.Description</p>
+    <p>Titel: @Model.BlogPost.Title</p>
+    <p>Navn: @Model.BlogPost.ChairMan</p>
+    <p>Beskrivelse: @Model.BlogPost.Description</p>
     @if (!string.IsNullOrEmpty(Model.BlogPost.ImagePath))
     {
         <img src="@Model.BlogPost.ImagePath" alt="Blog Post Image" style="max-width: 100%; height: auto;" />

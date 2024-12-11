@@ -26,6 +26,5 @@ namespace semester1Website.Models
             Events.Add(events);
         }
 
-
     }
 }
