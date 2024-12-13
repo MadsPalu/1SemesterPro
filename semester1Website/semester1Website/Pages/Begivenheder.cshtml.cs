@@ -5,6 +5,7 @@ namespace semester1Website.Pages
 {
     public class BegivenhederModel : PageModel
     {
+        #region Properties
         [BindProperty]
         public string Date { get; set; } 
         [BindProperty]
@@ -13,8 +14,13 @@ namespace semester1Website.Pages
         public string Description { get; set; }
         [BindProperty]
         public string Location { get; set; } 
+        #endregion
 
-
+        public List<string> Locations { get; private set; } = new List<string>
+        {
+            "København",
+            "Hillerød"
+        };
         public Event NewEvent { get; private set;}
         public void OnPost()
         {

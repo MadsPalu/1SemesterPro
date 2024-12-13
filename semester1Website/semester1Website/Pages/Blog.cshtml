@@ -31,6 +31,7 @@
 </form>
 </div>
 
+
 @if (Model.BlogPost != null)
 {
     <h3>Opslag</h3>
@@ -41,7 +42,8 @@
     {
         <img src="@Model.BlogPost.ImagePath" alt="Blog Post Image" style="max-width: 100%; height: auto;" />
     }
-
+    <a asp-page="Delete" asp-route-id="@Model.BlogPost.Id">Slet</a>
+    <a asp-page="Edit" asp-route-id="@Model.BlogPost.Id">Rediger</a>
 }
 
 

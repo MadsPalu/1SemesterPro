@@ -3,8 +3,7 @@
 @{
     ViewData["Title"] = "Begivenheder";
 }
-<p>Begivenheder, wip</p>
-
+<h1>Begivenheder</h1>
 <form method="post">
     <div class="form-group">
         <label asp-for="Title">Titel</label>
@@ -23,7 +22,13 @@
     </div>
     <div class="form-group">
         <label asp-for="Location">Lokation</label>
-        <input asp-for="Location" class="form-control" placeholder="Lokation">
+            <select class="form-control" id="Locations" asp-for="Location" onchange="hideShowFormFields()">
+                <option value=>Vælg en lokation</option>
+                @foreach (var location in Model.Locations)
+                {
+                    <option value="@location">@location</option>
+                }
+            </select>
         <span asp-validation-for="Location" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Gem begivenhed</button>

@@ -23,10 +23,21 @@ namespace semester1Website.Pages
     public string Description { get; set; }
 
     public string ImagePath { get; set; }
+    public int Id { get; set; }
     #endregion 
 
     //Nested BlogPost property, skal bruges til at store data om blogposten
     public BlogPostModel BlogPost { get; set; }
+    public static List<Event> EditBlogPost { get; set; } = new List<Event>(); 
+    
+    public static void AddEditBlogPost(BlogPostModel blogPost)
+    {
+        blogPost.Title = "";
+        blogPost.ChairMan = "";
+        blogPost.Description = "";
+        blogPost.ImagePath = "";
+        
+    }
 
     #region Methods
     public void OnGet()
@@ -53,6 +64,11 @@ namespace semester1Website.Pages
             }
 
             ImagePath = $"/uploads/{uniqueFileName}";
+
+        foreach (var blogPost in EditBlogPost)
+        {
+            EditBlogPost.Add(blogPost);
+        }
         }
     #endregion
 
@@ -62,7 +78,7 @@ namespace semester1Website.Pages
             Title = Title,
             ChairMan = ChairMan,
             ImagePath = ImagePath,
-            Description = Description
+            Description = Description,
         };
 
         return Page();
