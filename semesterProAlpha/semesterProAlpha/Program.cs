@@ -40,5 +40,6 @@ chairMan2.chairManLog.Add(chairMan2.Id, chairMan2);
 
 Console.WriteLine("Chairmen:");
 chairMan1.GetChairmanLog(1);
+chairMan2.GetChairmanLog(2);
 Console.WriteLine();
 

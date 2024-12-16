@@ -2,9 +2,12 @@
 {
     public static class BådRepository
     {
+        #region Instance Fields
         private static Dictionary<int, Båd> _bådListe = new Dictionary<int, Båd>();
-
         //lav exeption båd allerede i liste.
+        #endregion
+        
+        #region Methods
         public static void AddBåd(Båd båd)
         {
            _bådListe.Add(båd.GetSejlNummer(), båd);
@@ -32,6 +35,7 @@
         {
             _bådListe.Remove(id);
         }
+        #endregion
     }
 }
 

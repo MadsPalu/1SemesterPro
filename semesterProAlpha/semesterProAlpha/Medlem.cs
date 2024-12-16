@@ -9,13 +9,18 @@ namespace semesterProAlpha
 {
     public class Medlem
     {
+        #region Properties
         public static int _medlemsNummerCounter = 1;
         public bool IsLoggedIn;
+        #endregion 
+        #region Instance Fields
         string _Name;
         string _Mobile;
         string _Addresse;
         int _MedlemsNummer;
+        #endregion
 
+        #region Constructors
         public Medlem(string name, string mobile, string addresse) 
         {
             _MedlemsNummer = _medlemsNummerCounter++;
@@ -23,8 +28,9 @@ namespace semesterProAlpha
             _Mobile = mobile;
             _Addresse = addresse;
         }
+        #endregion
 
-
+        #region Methods
         //eventuelt bare lav override på tostring
         public string HentInfo() 
         {
@@ -49,7 +55,7 @@ namespace semesterProAlpha
         public void ChangeAddresse(string addresse) { 
             _Addresse = addresse;
         }
-
+        #endregion
         //når både klasse er lavet, lav list over både som medlem eger
 
         //lav bool tjek, (er ude og sejle)

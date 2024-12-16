@@ -9,16 +9,24 @@ namespace semesterProAlpha
 {
     public class ChairMan 
     {
+        #region Instance Fields
+        public  Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
+        #endregion
+        #region Properties
         public int Id { get; set; }
         public string Name { get; set; } 
         public bool IsLoggedIn { get; set; }
-        public Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
+        #endregion
+
+        #region Constructors
         public ChairMan(int id, string name)
         {
             Id = id;
             Name = name;
         }
+        #endregion
 
+        #region Methods
         public ChairMan GetChairmanLog(int id)
         {
             string chairMan = "";
@@ -49,5 +57,6 @@ namespace semesterProAlpha
             member.IsLoggedIn = true;
             return member;
         }
+        #endregion
     }       
 }

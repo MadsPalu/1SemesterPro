@@ -2,12 +2,18 @@
 {
     public class Medlem
     {
-        public static int _medlemsNummerCounter = 1;
+        #region Instance Fields
         string _Name;
         string _Mobile;
         string _Addresse;
         int _MedlemsNummer;
+        #endregion
 
+        #region Properties
+        public static int _medlemsNummerCounter = 1;
+        #endregion
+
+        #region Constructors
         public Medlem(string name, string mobile, string addresse)
         {
             _MedlemsNummer = _medlemsNummerCounter++;
@@ -15,8 +21,9 @@
             _Mobile = mobile;
             _Addresse = addresse;
         }
+        #endregion
 
-
+        #region Methods
         //eventuelt bare lav override på tostring
         public string HentInfo()
         {
@@ -42,6 +49,7 @@
         {
             _Addresse = addresse;
         }
+        #endregion
 
         //når både klasse er lavet, lav list over både som medlem eger
 

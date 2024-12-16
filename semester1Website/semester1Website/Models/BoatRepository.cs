@@ -5,10 +5,13 @@ namespace semester1Website.Models
 {
     public static class BoatRepository
     {
+        #region Instance Fields
         private static string FilePath = "boatData.json";
         public static JsonHandler<Boat> JsonHandler = new JsonHandler<Boat>(FilePath);
         private static Dictionary<int, Boat> BoatList = JsonHandler.LoadFromFile();
-
+        #endregion
+        
+        #region Methods
         //lav exeption Boat allerede i List.
         public static void AddBoat(Boat Boat)
         {
@@ -39,6 +42,7 @@ namespace semester1Website.Models
             BoatList.Remove(id);
             JsonHandler.SaveToFile(BoatList);
         }
+        #endregion
     }
 }
 

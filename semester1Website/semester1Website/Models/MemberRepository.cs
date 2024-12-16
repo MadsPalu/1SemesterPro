@@ -5,11 +5,14 @@ using System.Text.Json;
 namespace semester1Website.Models
 {
     public static class MemberRepository
-    {
+    {   
+        #region Instance Fields
         private static string FilePath = "memberData.json";
         public static JsonHandler<Member> JsonHandler = new JsonHandler<Member>(FilePath);
         private static Dictionary<int, Member> MemberList = JsonHandler.LoadFromFile();
-
+        #endregion
+        
+        #region Methods
         //lav exeption member allerede i liste.
         public static void AddMember(Member member) 
         {
@@ -40,6 +43,7 @@ namespace semester1Website.Models
             MemberList.Remove(id);
             JsonHandler.SaveToFile(MemberList);
         }
+        #endregion
     }
 }
 

@@ -8,8 +8,11 @@ namespace semesterProAlpha
 {
     public static class MedlemsRepository
     {
+        #region Instance Fields
         private static Dictionary<int, Medlem> _medlemsListe = new Dictionary<int, Medlem>();
+        #endregion
 
+        #region Methods
         //lav exeption medlem allerede i liste.
         public static void AddMedlem(Medlem medlem) 
         {
@@ -24,7 +27,7 @@ namespace semesterProAlpha
                 Console.WriteLine($"{medlem.Value.HentInfo()} medlemsnummer: {medlem.Key}");
             }
         }
-
+        
         //lav exeption, medlem not found.
         public static Medlem GetMedlem(int id) 
         {
@@ -36,6 +39,7 @@ namespace semesterProAlpha
         {
             _medlemsListe.Remove(id);
         }
+        #endregion
     }
 }
 
