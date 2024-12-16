@@ -10,6 +10,7 @@ namespace semesterProAlpha
     public class Medlem
     {
         public static int _medlemsNummerCounter = 1;
+        public bool IsLoggedIn;
         string _Name;
         string _Mobile;
         string _Addresse;

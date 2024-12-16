@@ -20,3 +20,11 @@ C:/Users/madsp/source/repos/semesterProAlpha/semesterProAlpha/obj/Debug/net8.0/r
 /Users/frederik/Documents/GitHub/1SemesterPro/semesterProAlpha/semesterProAlpha/obj/Debug/net8.0/semesterProAlpha.dll
 /Users/frederik/Documents/GitHub/1SemesterPro/semesterProAlpha/semesterProAlpha/obj/Debug/net8.0/refint/semesterProAlpha.dll
 /Users/frederik/Documents/GitHub/1SemesterPro/semesterProAlpha/semesterProAlpha/obj/Debug/net8.0/semesterProAlpha.pdb
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.AssemblyInfoInputs.cache
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.AssemblyInfo.cs
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.csproj.CoreCompileInputs.cache
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.sourcelink.json
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.dll
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\refint\semesterProAlpha.dll
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.pdb

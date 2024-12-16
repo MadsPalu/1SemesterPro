@@ -30,3 +30,15 @@ BådRepository.AddBåd(båd4);
 BådRepository.AddBåd(båd5);
 
 BådRepository.PrintListe();
+
+// Chairman objecter
+ChairMan chairMan1 = new ChairMan(1, "Henning");
+ChairMan chairMan2 = new ChairMan(2, "Lars");
+
+chairMan1.chairManLog.Add(chairMan1.Id, chairMan1);
+chairMan2.chairManLog.Add(chairMan2.Id, chairMan2);
+
+Console.WriteLine("Chairmen:");
+chairMan1.GetChairmanLog(1);
+Console.WriteLine();
+

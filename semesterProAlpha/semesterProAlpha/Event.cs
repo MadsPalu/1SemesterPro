@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace semester1Website.Models
+namespace semesterProAlpha
 {
     public class Event
     {
