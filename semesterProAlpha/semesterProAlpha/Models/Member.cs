@@ -1,4 +1,4 @@
-﻿namespace semester1Website.Models
+﻿namespace semesterProAlpha.Models
 {
     public class Member : ChairMan
     {

@@ -1,16 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Threading.Tasks;
-
-
-namespace semesterProAlpha
+namespace semesterProAlpha.Models
 {
     public class ChairMan 
     {
-        #region Properties   
-        public  Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
+        #region Properties
+        public Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
         public int Id { get; set; }
         public string Name { get; set; } 
         public bool IsLoggedIn { get; set; }
@@ -41,7 +34,7 @@ namespace semesterProAlpha
             return $"Name : {Name}, ID : {Id}";
         }
         
-        public Medlem ChairManLogIn(string id, string name)
+        public Member ChairManLogIn(string id, string name)
         {
             if (id == null) throw new ArgumentNullException(nameof(id), "ID cannot be null");
             if (name == null) throw new ArgumentNullException(nameof(name), "Name cannot be null");
@@ -49,12 +42,12 @@ namespace semesterProAlpha
             if (!int.TryParse(id, out int memberId))
             throw new ArgumentException("ID is required and must be a number");
 
-            Medlem member = MedlemsRepository.GetMedlem(memberId);
+            Member member = RepoInitializer.memberRepo.Get(memberId);
             if (member == null) throw new Exception("Member not found");
 
             member.IsLoggedIn = true;
             return member;
         }
         #endregion
-    }       
+    }        
 }

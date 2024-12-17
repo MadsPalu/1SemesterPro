@@ -1,45 +1,41 @@
-﻿// See https://aka.ms/new-console-template for more information
-using semesterProAlpha;
+﻿// Test Member class
+using semesterProAlpha.Models;
+using semesterProAlpha.Services;
 
-Medlem medlem1 = new Medlem("Anna Hansen", "12345678", "Bakkenvej 5");
-Medlem medlem2 = new Medlem("Bjørn Jensen", "87654321", "Skovvej 12");
-Medlem medlem3 = new Medlem("Clara Nørgaard", "45678912", "Havnegade 34");
-Medlem medlem4 = new Medlem("David Sørensen", "23456789", "Markvej 56");
-Medlem medlem5 = new Medlem("Eva Larsen", "98765432", "Strandvej 78");
+var member = new Member("John Doe", "12345678", "123 Main St");
+Console.WriteLine("Member Test:");
+Console.WriteLine(member);
 
-MedlemsRepository.AddMedlem(medlem1);
-MedlemsRepository.AddMedlem(medlem2);
-MedlemsRepository.AddMedlem(medlem3);
-MedlemsRepository.AddMedlem(medlem4);
-MedlemsRepository.AddMedlem(medlem5);
+// Test MotorBoat class
+var motorBoat = new MotorBoat("Speedster", "Model X", 2020, "10x3x2", "V8", 300, 50.5);
+Console.WriteLine("\nMotorBoat Test:");
+Console.WriteLine(motorBoat);
 
-MedlemsRepository.PrintListe();
+// Test RowBoat class
+var rowBoat = new RowBoat("RowMaster", "Model Y", 2015, "8x2x1", 4, 2);
+Console.WriteLine("\nRowBoat Test:");
+Console.WriteLine(rowBoat);
 
-// Create Båd objects
-Båd båd1 = new Båd("Havfruen", "Motorbåd", "Volvo Penta", 2010, "10*3*2");
-Båd båd2 = new Båd("Sølvpilen", "Sejlbåd", "Bavaria Cruiser", 2018, "12*3.5*2.5");
-Båd båd3 = new Båd("Blåhvalen", "Robåd", "Fisker", 2005, "4*1.5*1");
-Båd båd4 = new Båd("Vindrosen", "Sejlbåd", "Hunter", 2020, "14*4*3");
-Båd båd5 = new Båd("Lynet", "Motorbåd", "Mercury", 2015, "8*2.5*2");
+// Test SailBoat class
+var sailBoat = new SailBoat("WindRider", "Model Z", 2018, "12x4x3", 3, 5.5);
+Console.WriteLine("\nSailBoat Test:");
+Console.WriteLine(sailBoat);
 
-// Add Båd objects to the repository
-BådRepository.AddBåd(båd1);
-BådRepository.AddBåd(båd2);
-BådRepository.AddBåd(båd3);
-BådRepository.AddBåd(båd4);
-BådRepository.AddBåd(båd5);
+// Test ChairMan class
+var chairman = new ChairMan(1, "Chairman Name");
+Console.WriteLine("\nChairMan Test:");
+Console.WriteLine(chairman.GetChairmanInfo());
 
-BådRepository.PrintListe();
+// Test Event class
+var event1 = new Event("2024-01-01", "Test Event", "Description", "Location");
+Event.AddEvent(event1);
+Console.WriteLine("\nEvent Test:");
+Console.WriteLine($"Event: {event1.Title} on {event1.Date} at {event1.Location}");
 
-// Chairman objecter
-ChairMan chairMan1 = new ChairMan(1, "Henning");
-ChairMan chairMan2 = new ChairMan(2, "Lars");
+// Test GenericRepo
+var memberRepo = new GenericRepo<Member>("test.json", m => m.MemberNumber);
+memberRepo.Add(member);
+Console.WriteLine("\nGenericRepo Test:");
+Console.WriteLine("Added member: " + memberRepo.Get(member.MemberNumber));
 
-chairMan1.chairManLog.Add(chairMan1.Id, chairMan1);
-chairMan2.chairManLog.Add(chairMan2.Id, chairMan2);
-
-Console.WriteLine("Chairmen:");
-chairMan1.GetChairmanLog(1);
-chairMan2.GetChairmanLog(2);
-Console.WriteLine();
-
+Console.WriteLine("\nAll tests completed successfully.");
