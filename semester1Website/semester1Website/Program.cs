@@ -24,8 +24,4 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-//loader Json filer til repos
-MemberRepository.JsonHandler.LoadFromFile();
-BoatRepository.JsonHandler.LoadFromFile();
-
 app.Run();

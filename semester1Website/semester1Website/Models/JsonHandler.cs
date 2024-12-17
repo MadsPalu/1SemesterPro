@@ -4,19 +4,14 @@ namespace semester1Website.Models
 {
     public class JsonHandler<T>
     {
-        #region Properties
         public string FilePath { get; set; }
         public int Counter {  get; set; }
-        #endregion
 
-        #region Constructors
         public JsonHandler(string filePath) 
         {
             FilePath = filePath;
         }
-        #endregion
 
-        #region Methods
         //bliver kaldt i program.cs
         public Dictionary<int, T> LoadFromFile()
         {
@@ -42,6 +37,5 @@ namespace semester1Website.Models
             //Gemmer Json data ved file pathen, laver ny fil hvis den ikke findes.
             File.WriteAllText(FilePath, json);
         }
-        #endregion
     }
 }
