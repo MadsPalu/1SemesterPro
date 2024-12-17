@@ -6,9 +6,11 @@ namespace semester1Website.Pages
 {
     public class BlogPostModel : PageModel
 {
+    #region Instance Fields
     //giver adgang /wwwroot så man kan gemme billeder/filer
     private readonly IWebHostEnvironment _environment;
-    
+    #endregion
+
     #region Properties
     [BindProperty]
     public string Title { get; set; }
@@ -21,15 +23,14 @@ namespace semester1Website.Pages
 
     [BindProperty]
     public string Description { get; set; }
-
     public string ImagePath { get; set; }
     public int Id { get; set; }
-    #endregion 
-
     //Nested BlogPost property, skal bruges til at store data om blogposten
     public BlogPostModel BlogPost { get; set; }
     public static List<Event> EditBlogPost { get; set; } = new List<Event>(); 
-    
+    #endregion 
+
+    #region Methods
     public static void AddEditBlogPost(BlogPostModel blogPost)
     {
         blogPost.Title = "";
@@ -82,6 +83,7 @@ namespace semester1Website.Pages
         };
 
         return Page();
+        #endregion
     }
 }
 }
