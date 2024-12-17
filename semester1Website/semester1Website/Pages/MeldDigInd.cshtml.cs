@@ -22,7 +22,7 @@ namespace semester1Website.Pages
         public void OnPost()
         {
             NewMedlem = new Member(MedlemName, MedlemMobil, MedlemAddresse);
-            MemberRepository.AddMember(NewMedlem);
+            RepoinItialiser.memberRepo.Add(NewMedlem);
         }
     }
 }
