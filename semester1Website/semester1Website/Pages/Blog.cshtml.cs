@@ -53,8 +53,11 @@ namespace semester1Website.Pages
 
         if (UploadedImage != null)
         {
+            //Bestemmer uploadede filens sti ved at kombinere webroot med "uploads"
             var uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+            //Genererer en unik filnavn ved at tilføje et unikt ID og navn til den uploadede fil.
             var uniqueFileName = Guid.NewGuid().ToString() + "_" + UploadedImage.FileName;
+            //Opretter filsti hvor filen gemmes.
             var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
             using (var stream = new FileStream(filePath, FileMode.Create))
@@ -63,11 +66,6 @@ namespace semester1Website.Pages
             }
 
             ImagePath = $"/uploads/{uniqueFileName}";
-
-        foreach (var blogPost in EditBlogPost)
-        {
-            EditBlogPost.Add(blogPost);
-        }
         }
 
     //ny BlogPost objekt
