@@ -49,7 +49,7 @@ namespace semester1Website.Models
             if (!int.TryParse(id, out int memberId))
             throw new ArgumentException("ID is required and must be a number");
 
-            Member member = RepoinItialiser.memberRepo.Get(memberId);
+            Member member = RepoInitializer.memberRepo.Get(memberId);
             if (member == null) throw new Exception("Member not found");
 
             member.IsLoggedIn = true;

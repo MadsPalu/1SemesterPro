@@ -68,15 +68,15 @@ namespace semester1Website.Pages
                 {
                     case "Motorbåd":
                         MotorBoat motorBåd = new MotorBoat(Bådname, BådModel, BådbuildYear, Båddimensions, Motor, Hæstekrafter, Liter);
-                        RepoinItialiser.boatRepo.Add(motorBåd);
+                        RepoInitializer.boatRepo.Add(motorBåd);
                         break;
                     case "Sejlbåd":
                         SailBoat sejlBåd = new SailBoat(Bådname, BådModel, BådbuildYear, Båddimensions, AntalSejl, MaksSejlBredde);
-                        RepoinItialiser.boatRepo.Add(sejlBåd);
+                        RepoInitializer.boatRepo.Add(sejlBåd);
                         break;
                     case "Robåd":
                         RowBoat roBåd = new RowBoat(Bådname, BådModel, BådbuildYear, Båddimensions, SiddePladser, AntalÅrer);
-                        RepoinItialiser.boatRepo.Add(roBåd);
+                        RepoInitializer.boatRepo.Add(roBåd);
                         break;
                 }
             }

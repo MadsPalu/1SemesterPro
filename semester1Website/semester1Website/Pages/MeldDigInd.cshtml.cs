@@ -25,7 +25,7 @@ namespace semester1Website.Pages
         public void OnPost()
         {
             NewMedlem = new Member(MedlemName, MedlemMobil, MedlemAddresse);
-            RepoinItialiser.memberRepo.Add(NewMedlem);
+            RepoInitializer.memberRepo.Add(NewMedlem);
         }
         #endregion
     }

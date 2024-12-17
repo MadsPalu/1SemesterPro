@@ -1,6 +1,7 @@
 ﻿using semester1Website.Models;
+using semester1Website.Services;
 
-public static class RepoinItialiser
+public static class RepoInitializer
 {
     #region Properties
     public static GenericRepo<Boat> boatRepo;
@@ -8,7 +9,7 @@ public static class RepoinItialiser
     #endregion
     
     #region Constructors
-    static RepoinItialiser()
+    static RepoInitializer()
     {
         boatRepo = new GenericRepo<Boat>("boatData.json", boat => boat.Id);
         Boat.IdCounter = boatRepo.JsonHandler.Counter;

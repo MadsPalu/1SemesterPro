@@ -1,5 +1,6 @@
-﻿namespace semester1Website.Models
+﻿namespace semester1Website.Services
 {
+    //GenericRepo er en klasse vi bruger til at lave repositories til Boats og Members, som instanceres af RepoInitailzer
     public class GenericRepo<T>
     {
         #region Properties

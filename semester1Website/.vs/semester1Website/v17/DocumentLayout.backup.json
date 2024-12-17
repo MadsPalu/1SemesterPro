@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\pages\\bookb\u00E5d.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\pages\\bookb\u00E5d.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\services\\jsonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\services\\jsonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\jsonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\jsonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\services\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\services\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\pages\\bookb\u00E5d.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\pages\\bookb\u00E5d.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\semester1website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\semester1website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\chairman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\chairman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\sailboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\sailboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\rowboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\rowboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\services\\repoinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\services\\repoinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\motorboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\motorboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\pages\\bookb\u00E5d.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\pages\\bookb\u00E5d.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\pages\\blog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\pages\\bookb\u00E5d.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\pages\\bookb\u00E5d.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\pages\\registrerskade.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\pages\\registrerskade.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -71,24 +95,12 @@
       "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\rowboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\rowboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\models\\sailboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\models\\sailboat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\semester1website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|solutionrelative:semester1website\\semester1website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E99AD4B1-FE55-4879-B93E-CF9803C03595}|semester1Website\\semester1Website.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semester1website\\semester1website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -118,86 +130,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepoInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Services\\RepoInitializer.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Services\\RepoInitializer.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Services\\RepoInitializer.cs*",
+              "RelativeToolTip": "semester1Website\\Services\\RepoInitializer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:55:04.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JsonHandler.cs",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\JsonHandler.cs",
-              "RelativeDocumentMoniker": "semester1Website\\Models\\JsonHandler.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\JsonHandler.cs",
-              "RelativeToolTip": "semester1Website\\Models\\JsonHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Services\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Services\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Services\\GenericRepo.cs*",
+              "RelativeToolTip": "semester1Website\\Services\\GenericRepo.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:34:58.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Member.cs",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Member.cs",
-              "RelativeDocumentMoniker": "semester1Website\\Models\\Member.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Member.cs",
-              "RelativeToolTip": "semester1Website\\Models\\Member.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:20:43.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Program.cs",
-              "RelativeDocumentMoniker": "semester1Website\\Program.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Program.cs",
-              "RelativeToolTip": "semester1Website\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:11:59.703Z",
+              "WhenOpened": "2024-12-17T12:46:27.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Boat.cs",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Boat.cs",
-              "RelativeDocumentMoniker": "semester1Website\\Models\\Boat.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Boat.cs",
-              "RelativeToolTip": "semester1Website\\Models\\Boat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:04:21.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookB\u00E5d.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\BookB\u00E5d.cshtml.cs",
-              "RelativeDocumentMoniker": "semester1Website\\Pages\\BookB\u00E5d.cshtml.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\BookB\u00E5d.cshtml.cs",
-              "RelativeToolTip": "semester1Website\\Pages\\BookB\u00E5d.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:38:08.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ChairMan.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\ChairMan.cs",
               "RelativeDocumentMoniker": "semester1Website\\Models\\ChairMan.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\ChairMan.cs",
-              "RelativeToolTip": "semester1Website\\Models\\ChairMan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\ChairMan.cs*",
+              "RelativeToolTip": "semester1Website\\Models\\ChairMan.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T11:42:05.805Z",
               "EditorCaption": ""
@@ -205,6 +174,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "RowBoat.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\RowBoat.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Models\\RowBoat.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\RowBoat.cs",
+              "RelativeToolTip": "semester1Website\\Models\\RowBoat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:04:41.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SailBoat.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\SailBoat.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Models\\SailBoat.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\SailBoat.cs",
+              "RelativeToolTip": "semester1Website\\Models\\SailBoat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:04:45.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "semester1Website.csproj",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj",
+              "RelativeDocumentMoniker": "semester1Website\\semester1Website.csproj",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj*",
+              "RelativeToolTip": "semester1Website\\semester1Website.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T18:41:17.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookB\u00E5d.cshtml",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\BookB\u00E5d.cshtml",
+              "RelativeDocumentMoniker": "semester1Website\\Pages\\BookB\u00E5d.cshtml",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\BookB\u00E5d.cshtml",
+              "RelativeToolTip": "semester1Website\\Pages\\BookB\u00E5d.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T14:50:05.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Event.cs",
+              "RelativeToolTip": "semester1Website\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:48:28.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JsonHandler.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Services\\JsonHandler.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Services\\JsonHandler.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Services\\JsonHandler.cs*",
+              "RelativeToolTip": "semester1Website\\Services\\JsonHandler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:34:58.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Models\\Member.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Member.cs*",
+              "RelativeToolTip": "semester1Website\\Models\\Member.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:20:43.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Boat.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Boat.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Models\\Boat.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\Boat.cs*",
+              "RelativeToolTip": "semester1Website\\Models\\Boat.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:04:21.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookB\u00E5d.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\BookB\u00E5d.cshtml.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Pages\\BookB\u00E5d.cshtml.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\BookB\u00E5d.cshtml.cs*",
+              "RelativeToolTip": "semester1Website\\Pages\\BookB\u00E5d.cshtml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:38:08.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Blog.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\Blog.cshtml.cs",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\Blog.cshtml.cs",
@@ -212,25 +298,40 @@
               "RelativeToolTip": "semester1Website\\Pages\\Blog.cshtml.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:39:27.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T16:39:27.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Program.cs",
+              "RelativeDocumentMoniker": "semester1Website\\Program.cs",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Program.cs",
+              "RelativeToolTip": "semester1Website\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:11:59.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MotorBoat.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\MotorBoat.cs",
               "RelativeDocumentMoniker": "semester1Website\\Models\\MotorBoat.cs",
               "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\MotorBoat.cs",
               "RelativeToolTip": "semester1Website\\Models\\MotorBoat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T14:04:37.203Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "memberData.json",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\memberData.json",
               "RelativeDocumentMoniker": "semester1Website\\memberData.json",
@@ -242,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "MeldDigInd.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\MeldDigInd.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\MeldDigInd.cshtml",
@@ -250,11 +351,12 @@
               "RelativeToolTip": "semester1Website\\Pages\\MeldDigInd.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T14:49:44.725Z"
+              "WhenOpened": "2024-11-28T14:49:44.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "boatData.json",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\boatData.json",
               "RelativeDocumentMoniker": "semester1Website\\boatData.json",
@@ -266,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "MeldDigInd.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\MeldDigInd.cshtml.cs",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\MeldDigInd.cshtml.cs",
@@ -274,11 +376,12 @@
               "RelativeToolTip": "semester1Website\\Pages\\MeldDigInd.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T18:28:34.646Z"
+              "WhenOpened": "2024-11-30T18:28:34.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Blog.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\Blog.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\Blog.cshtml",
@@ -290,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\appsettings.json",
               "RelativeDocumentMoniker": "semester1Website\\appsettings.json",
@@ -302,19 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BookB\u00E5d.cshtml",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\BookB\u00E5d.cshtml",
-              "RelativeDocumentMoniker": "semester1Website\\Pages\\BookB\u00E5d.cshtml",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\BookB\u00E5d.cshtml",
-              "RelativeToolTip": "semester1Website\\Pages\\BookB\u00E5d.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T14:50:05.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "RegistrerSkade.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\RegistrerSkade.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\RegistrerSkade.cshtml",
@@ -326,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\Privacy.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\Privacy.cshtml",
@@ -338,31 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RowBoat.cs",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\RowBoat.cs",
-              "RelativeDocumentMoniker": "semester1Website\\Models\\RowBoat.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\RowBoat.cs",
-              "RelativeToolTip": "semester1Website\\Models\\RowBoat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:04:41.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SailBoat.cs",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\SailBoat.cs",
-              "RelativeDocumentMoniker": "semester1Website\\Models\\SailBoat.cs",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Models\\SailBoat.cs",
-              "RelativeToolTip": "semester1Website\\Models\\SailBoat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:04:45.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\Index.cshtml",
@@ -374,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\Error.cshtml",
@@ -386,19 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "semester1Website.csproj",
-              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj",
-              "RelativeDocumentMoniker": "semester1Website\\semester1Website.csproj",
-              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\semester1Website.csproj",
-              "RelativeToolTip": "semester1Website\\semester1Website.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-30T18:41:17.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "semester1Website\\wwwroot\\css\\site.css",
@@ -410,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Begivenheder.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\Begivenheder.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\Begivenheder.cshtml",
@@ -422,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\Shared\\_Layout.cshtml",
@@ -434,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -446,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semester1Website\\semester1Website\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "semester1Website\\Pages\\_ViewImports.cshtml",

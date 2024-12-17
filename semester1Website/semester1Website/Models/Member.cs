@@ -28,7 +28,6 @@ namespace semester1Website.Models
         #endregion
 
         #region Methods
-        //eventuelt bare lav override på tostring
         public override string ToString()
         {
             return $"Name: {MemberName}, Mobile: {Mobile} address: {Address}";
@@ -53,10 +52,6 @@ namespace semester1Website.Models
         {
             Address = address;
         }
-
-        //når både klasse er lavet, lav list over både som medlem eger
-
-        //lav bool tjek, (er ude og sejle)
         #endregion
     }
 }
