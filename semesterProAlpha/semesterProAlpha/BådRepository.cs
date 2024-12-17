@@ -8,8 +8,11 @@ namespace semesterProAlpha
 {
     public static class BådRepository
     {
+        #region Properties
         private static Dictionary<int, Båd> _bådListe = new Dictionary<int, Båd>();
+        #endregion
 
+        #region Methods
         //lav exeption båd allerede i liste.
         public static void AddBåd(Båd båd)
         {
@@ -38,6 +41,7 @@ namespace semesterProAlpha
         {
             _bådListe.Remove(id);
         }
+        #endregion
     }
 }
 

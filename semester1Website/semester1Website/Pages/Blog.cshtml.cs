@@ -39,8 +39,6 @@ namespace semester1Website.Pages
         blogPost.ImagePath = "";
         
     }
-
-    #region Methods
     public void OnGet()
     {
         BlogPost = new BlogPostModel(); // Undgå null reference
@@ -71,7 +69,6 @@ namespace semester1Website.Pages
             EditBlogPost.Add(blogPost);
         }
         }
-    #endregion
 
     //ny BlogPost objekt
     BlogPost = new BlogPostModel

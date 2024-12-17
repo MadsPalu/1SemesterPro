@@ -8,6 +8,7 @@ namespace semester1Website.Models
     [JsonDerivedType(typeof(RowBoat), "RowBoat")]
     public class Boat
     {
+        #region Properties
         public string Name { get; set; }
         public string BoatType { get; set; }
         public string Model { get; set; }
@@ -20,7 +21,9 @@ namespace semester1Website.Models
         public int BuildYear { get; set; }
         //skriv som "Højde*Bredde*længde"
         public string Dimensions { get; set; }
+        #endregion
         
+        #region Constructors
         public Boat(string name, string boatType, string model, int buildYear, string dimensions)
         {
             Id = IdCounter++;
@@ -30,9 +33,9 @@ namespace semester1Website.Models
             BuildYear = buildYear;
             Dimensions = dimensions;
         }
-
+        #endregion
         //overvej om det giver menning at kunne skifte værdier, fleste giver ikke menning.
-
+        #region Methods
         public int GetId() 
         {
             return Id; 
@@ -43,5 +46,6 @@ namespace semester1Website.Models
             return $"Name: {Name}, Type: {BoatType}, Model: {Model}, " +
                    $"Id: {Id}, Build Year: {BuildYear}, Dimensions: {Dimensions}";
         }
+        #endregion
     }
 }

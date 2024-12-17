@@ -7,6 +7,7 @@ namespace semester1Website.Pages
 {
     public class BookBådModel : PageModel
     {
+        #region Properties
         //List af både
         public List<string> boatTyper { get; private set; } = new List<string>
         {
@@ -55,7 +56,10 @@ namespace semester1Website.Pages
 
         [BindProperty]
         public int AntalÅrer { get; set; }
+        #endregion 
 
+
+        #region Methods
         public void OnPost()
         {
             if (!string.IsNullOrEmpty(ValgtboatType))
@@ -77,5 +81,6 @@ namespace semester1Website.Pages
                 }
             }
         }
+        #endregion
     }
 }

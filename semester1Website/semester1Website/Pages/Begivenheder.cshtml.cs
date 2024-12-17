@@ -5,16 +5,13 @@ namespace semester1Website.Pages
 {
     public class BegivenhederModel : PageModel
     {
-        #region Instance Fields
+        #region Properties
         public List<string> Locations { get; private set; } = new List<string>
         {
             "København",
             "Hillerød"
         };
         public Event NewEvent { get; private set;}
-        #endregion
-       
-        #region Properties
         [BindProperty]
         public string Date { get; set; } 
         [BindProperty]

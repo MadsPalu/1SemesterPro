@@ -9,11 +9,8 @@ namespace semester1Website.Models
 {
     public class ChairMan 
     {
-        #region Instance Fields
-        public Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
-        #endregion
-
         #region Properties
+        public Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
         public int Id { get; set; }
         public string Name { get; set; } 
         public bool IsLoggedIn { get; set; }
@@ -52,7 +49,7 @@ namespace semester1Website.Models
             if (!int.TryParse(id, out int memberId))
             throw new ArgumentException("ID is required and must be a number");
 
-            Member member = MemberRepository.GetMember(memberId);
+            Member member = RepoinItialiser.memberRepo.Get(memberId);
             if (member == null) throw new Exception("Member not found");
 
             member.IsLoggedIn = true;

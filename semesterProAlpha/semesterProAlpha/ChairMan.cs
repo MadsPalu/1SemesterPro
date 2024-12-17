@@ -9,10 +9,8 @@ namespace semesterProAlpha
 {
     public class ChairMan 
     {
-        #region Instance Fields
+        #region Properties   
         public  Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
-        #endregion
-        #region Properties
         public int Id { get; set; }
         public string Name { get; set; } 
         public bool IsLoggedIn { get; set; }

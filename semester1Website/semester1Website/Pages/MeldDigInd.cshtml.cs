@@ -6,6 +6,7 @@ namespace semester1Website.Pages
 {
     public class MeldDigIndModel : PageModel
     {
+        #region Properties
         //l�s op p� bindproperty, virker ikke rigtig uden, men ved ikke hvorfor
         [BindProperty]
         public string MedlemName { get; set; }
@@ -17,12 +18,15 @@ namespace semester1Website.Pages
         public string MedlemAddresse { get; set; }
 
         public Member NewMedlem { get; private set; }
+        #endregion
 
+        #region Methods
         //onpost arbejder sammen med method post fra formen, og trigger p� submit
         public void OnPost()
         {
             NewMedlem = new Member(MedlemName, MedlemMobil, MedlemAddresse);
             RepoinItialiser.memberRepo.Add(NewMedlem);
         }
+        #endregion
     }
 }
