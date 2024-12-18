@@ -6,19 +6,22 @@ namespace semester1Website;
 
 public class BookboatModel : PageModel
 {
+    #region Instance Fields
     private static BookingRepo _bookingRepo = new BookingRepo();
-    public List<Booking> Bookinger { get; private set; } = new List<Booking>();
+    #endregion
 
+    #region Properties
+    public List<Booking> Bookinger { get; private set; } = new List<Booking>();
     [BindProperty]
     public int _boatId { get; set; }
     [BindProperty]
     public DateTime _startTid { get; set; }
     [BindProperty]
     public DateTime _slutTid { get; set; }
-
     public string Message { get; set; }
+    #endregion
 
-
+    #region Methods
     public void OnGet()
     {
         //Henter alle bookinger fra BookingRepo
@@ -28,16 +31,17 @@ public class BookboatModel : PageModel
     {
         if (ModelState.IsValid)
         {
-            //opretter en ny booking og tilføj den til repo
+            //opretter en ny booking og tilfï¿½j den til repo
             Booking newBooking = new Booking(_boatId, _startTid, _slutTid);
             _bookingRepo.Lavbooking(newBooking);
 
             
-            Message = $"Booking for båd {_boatId} er oprettet";
+            Message = $"Booking for bï¿½d {_boatId} er oprettet";
             return Page();
         }
 
-        Message = "Noget gik galt. Prøv igen!";
+        Message = "Noget gik galt. Prï¿½v igen!";
         return Page();
+        #endregion
     }
 }

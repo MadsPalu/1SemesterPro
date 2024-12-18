@@ -4,7 +4,11 @@ namespace semester1Website.Models
 {
     public class BookingRepo
     {
+        #region Instance Fields
         private static List<Booking> _bookinger = new List<Booking>();
+        #endregion
+
+        #region Methods
         public void Lavbooking(Booking booking)
         {
             if (booking._startTid >= booking._slutTid)
@@ -26,5 +30,6 @@ namespace semester1Website.Models
         {
             return _bookinger;
         }
+        #endregion
     }
 }

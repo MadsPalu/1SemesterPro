@@ -7,7 +7,6 @@ namespace semester1Website.Pages
     public class MeldDigIndModel : PageModel
     {
         #region Properties
-        //l�s op p� bindproperty, virker ikke rigtig uden, men ved ikke hvorfor
         [BindProperty]
         public string MedlemName { get; set; }
 
