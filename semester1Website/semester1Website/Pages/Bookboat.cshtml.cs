@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace semester1Website;
 
-public class BookingModel : PageModel
+public class BookboatModel : PageModel
 {
     #region Instance Fields
     private static BookingRepo _bookingRepo = new BookingRepo();
