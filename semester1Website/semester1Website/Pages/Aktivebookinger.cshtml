@@ -1,0 +1,36 @@
+﻿@page
+@model semester1Website.AktivebookingerModel;
+@{
+    ViewData["Title"] = "Alle Bookinger";
+}
+
+<h1>Alle Bookinger</h1>
+
+@if (Model.Bookinger.Count == 0)
+{
+    <p>Ingen bookinger fundet.</p>
+}
+else
+{
+    <table border="1" style="width: 100%; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Booking ID</th>
+                <th>Båd ID</th>
+                <th>Starttid</th>
+                <th>Sluttid</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model.Bookinger)
+            {
+                <tr>
+                    <td>@booking._bookingId</td>
+                    <td>@booking._boatId</td>
+                    <td>@booking._startTid.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td>@booking._slutTid.ToString("yyyy-MM-dd HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
