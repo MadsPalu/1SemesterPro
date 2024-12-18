@@ -1,4 +1,4 @@
-﻿namespace semesterProAlpha.Models
+﻿namespace semester1Website.Models
 {
     public class MotorBoat : Boat
     {

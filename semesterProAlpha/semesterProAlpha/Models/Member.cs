@@ -1,6 +1,6 @@
-﻿namespace semesterProAlpha.Models
+﻿namespace semester1Website.Models
 {
-    public class Member : ChairMan
+    public class Member
     {
         #region Properties
         public static int MemberNumberCounter { get; set; } = 1;
@@ -12,7 +12,6 @@
 
         #region Constructors
         public Member(string memberName, string mobile, string address)
-        : base(MemberNumberCounter, memberName)
         {
             MemberNumber = MemberNumberCounter++;
             MemberName = memberName;

@@ -34,7 +34,7 @@ namespace semesterProAlpha.Models
             return $"Name : {Name}, ID : {Id}";
         }
         
-        public Member ChairManLogIn(string id, string name)
+        public ChairMan ChairManLogIn(string id, string name)
         {
             if (id == null) throw new ArgumentNullException(nameof(id), "ID cannot be null");
             if (name == null) throw new ArgumentNullException(nameof(name), "Name cannot be null");
@@ -42,7 +42,7 @@ namespace semesterProAlpha.Models
             if (!int.TryParse(id, out int memberId))
             throw new ArgumentException("ID is required and must be a number");
 
-            Member member = RepoInitializer.memberRepo.Get(memberId);
+            ChairMan member =  chairManLog[memberId];
             if (member == null) throw new Exception("Member not found");
 
             member.IsLoggedIn = true;

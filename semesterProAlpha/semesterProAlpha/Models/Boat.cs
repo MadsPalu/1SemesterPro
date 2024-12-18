@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace semesterProAlpha.Models
+namespace semester1Website.Models
 {
     [JsonDerivedType(typeof(Boat), "Boat")]
     [JsonDerivedType(typeof(MotorBoat), "MotorBoat")]

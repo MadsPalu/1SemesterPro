@@ -14,7 +14,8 @@ public static class RepoInitializer
         boatRepo = new GenericRepo<Boat>("boatData.json", boat => boat.Id);
         Boat.IdCounter = boatRepo.JsonHandler.Counter;
         memberRepo = new GenericRepo<Member>("memberData.json", Member => Member.MemberNumber);
-        Member.MemberNumberCounter = boatRepo.JsonHandler.Counter;
+        Member.MemberNumberCounter = memberRepo.JsonHandler.Counter;
     }
+
     #endregion
 }

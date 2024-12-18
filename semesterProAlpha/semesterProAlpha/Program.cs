@@ -1,10 +1,19 @@
-﻿// Test Member class
+﻿using semester1Website.Models;
+using semester1Website.Services;
 using semesterProAlpha.Models;
-using semesterProAlpha.Services;
 
-var member = new Member("John Doe", "12345678", "123 Main St");
+Console.WriteLine($"Using file path: {Path.GetFullPath(RepoInitializer.memberRepo.JsonHandler.FilePath)}");
+Console.WriteLine(RepoInitializer.boatRepo.JsonHandler.Counter);
+Console.WriteLine(RepoInitializer.memberRepo.JsonHandler.Counter);
+
+// Test Member class
+var member1 = new Member("John Doe", "12345678", "123 Main St");
+var member2 = new Member("Jane Smith", "87654321", "456 Elm St");
+var member3 = new Member("Alice Johnson", "55566677", "789 Oak Ave");
 Console.WriteLine("Member Test:");
-Console.WriteLine(member);
+Console.WriteLine(member1);
+Console.WriteLine(member2);
+Console.WriteLine(member3);
 
 // Test MotorBoat class
 var motorBoat = new MotorBoat("Speedster", "Model X", 2020, "10x3x2", "V8", 300, 50.5);
@@ -32,10 +41,26 @@ Event.AddEvent(event1);
 Console.WriteLine("\nEvent Test:");
 Console.WriteLine($"Event: {event1.Title} on {event1.Date} at {event1.Location}");
 
-// Test GenericRepo
-var memberRepo = new GenericRepo<Member>("test.json", m => m.MemberNumber);
-memberRepo.Add(member);
-Console.WriteLine("\nGenericRepo Test:");
-Console.WriteLine("Added member: " + memberRepo.Get(member.MemberNumber));
+// Test GenericRepo med medlemmer
+var memberRepo = new GenericRepo<Member>("memberData.json", m => m.MemberNumber);
+memberRepo.Add(member1);
+memberRepo.Add(member2);
+memberRepo.Add(member3);
+Console.WriteLine("\nGenericRepo Test - Medlemmer:");
+Console.WriteLine("Added members:");
+Console.WriteLine(memberRepo.Get(member1.MemberNumber));
+Console.WriteLine(memberRepo.Get(member2.MemberNumber));
+Console.WriteLine(memberRepo.Get(member3.MemberNumber));
 
-Console.WriteLine("\nAll tests completed successfully.");
+// Test GenericRepo med både
+var boatRepo = new GenericRepo<Boat>("boatData.json", b => b.Id);
+boatRepo.Add(motorBoat);
+boatRepo.Add(rowBoat);
+boatRepo.Add(sailBoat);
+Console.WriteLine("\nGenericRepo Test - Både:");
+Console.WriteLine("Added boats:");
+Console.WriteLine(boatRepo.Get(motorBoat.Id));
+Console.WriteLine(boatRepo.Get(rowBoat.Id));
+Console.WriteLine(boatRepo.Get(sailBoat.Id));
+
+Console.WriteLine("\nAlle tests blev gennemført succesfuldt.");

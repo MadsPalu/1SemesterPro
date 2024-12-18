@@ -1,11 +1,11 @@
-namespace semester1Website.Models
+namespace semesterProAlpha.Models
 {
-    public class ChairMan 
+    public class ChairMan
     {
         #region Properties
         public Dictionary<int, ChairMan> chairManLog = new Dictionary<int, ChairMan>();
         public int Id { get; set; }
-        public string Name { get; set; } 
+        public string Name { get; set; }
         public bool IsLoggedIn { get; set; }
         #endregion
 
@@ -33,21 +33,21 @@ namespace semester1Website.Models
         {
             return $"Name : {Name}, ID : {Id}";
         }
-        
-        public Member ChairManLogIn(string id, string name)
+
+        public ChairMan ChairManLogIn(string id, string name)
         {
             if (id == null) throw new ArgumentNullException(nameof(id), "ID cannot be null");
             if (name == null) throw new ArgumentNullException(nameof(name), "Name cannot be null");
 
             if (!int.TryParse(id, out int memberId))
-            throw new ArgumentException("ID is required and must be a number");
+                throw new ArgumentException("ID is required and must be a number");
 
-            Member member = RepoInitializer.memberRepo.Get(memberId);
+            ChairMan member = chairManLog[memberId];
             if (member == null) throw new Exception("Member not found");
 
             member.IsLoggedIn = true;
             return member;
         }
         #endregion
-    }        
+    }
 }

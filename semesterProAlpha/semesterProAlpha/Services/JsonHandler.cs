@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace semesterProAlpha.Services
+namespace semester1Website.Services
 {
     public class JsonHandler<T>
     {
@@ -28,7 +28,7 @@ namespace semesterProAlpha.Services
                 loadList = JsonSerializer.Deserialize<Dictionary<int, T>>(json);
 
                 //Gemmer tæleren til Id Counter, ved at tælle antelet af keys i listen efter den er loaded fra json
-                Counter = loadList.Keys.Max() + 1;
+                Counter = loadList.Keys.Count > 0 ? loadList.Keys.Max() + 1 : 1;
             }
             return loadList;
         }
