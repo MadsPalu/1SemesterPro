@@ -1,5 +1,5 @@
 ﻿@page
-@model semester1Website.Models.Booking;
+@model semester1Website.BookboatModel;
 @{
     ViewData["Title"] = "Book en båd";
 }
@@ -27,7 +27,7 @@
 </form>
 
 
-@* @if (!string.IsNullOrEmpty(Model.Message))
+@if (!string.IsNullOrEmpty(Model.Message))
 {
     <p>@Model.Message</p>
-} *@
+}
