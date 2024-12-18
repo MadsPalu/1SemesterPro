@@ -32,12 +32,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Bookboat.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2JvYXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/BookBåd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0LDpWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Error.cshtml]
