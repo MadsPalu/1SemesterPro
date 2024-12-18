@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|solutionrelative:semesterproalpha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\bin\\Debug\\net8.0\\memberData.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:semesterProAlpha\\bin\\Debug\\net8.0\\memberData.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|c:\\users\\madsp\\desktop\\1semesterpro\\semesterproalpha\\semesterproalpha\\services\\repoinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4BE876-A5D2-40BD-95AC-7F0CB80E4AD2}|semesterProAlpha\\semesterProAlpha.csproj|solutionrelative:semesterproalpha\\services\\repoinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "memberData.json",
+              "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\bin\\Debug\\net8.0\\memberData.json",
+              "RelativeDocumentMoniker": "semesterProAlpha\\bin\\Debug\\net8.0\\memberData.json",
+              "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\bin\\Debug\\net8.0\\memberData.json",
+              "RelativeToolTip": "semesterProAlpha\\bin\\Debug\\net8.0\\memberData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T19:12:13.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RepoInitializer.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Services\\RepoInitializer.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Services\\RepoInitializer.cs",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "semesterProAlpha\\Services\\RepoInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:40:10.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T13:40:10.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "JsonHandler.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Services\\JsonHandler.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Services\\JsonHandler.cs",
@@ -87,12 +103,11 @@
               "RelativeToolTip": "semesterProAlpha\\Services\\JsonHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:40:08.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T13:40:08.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SailBoat.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Models\\SailBoat.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Models\\SailBoat.cs",
@@ -104,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RowBoat.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Models\\RowBoat.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Models\\RowBoat.cs",
@@ -116,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MotorBoat.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Models\\MotorBoat.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Models\\MotorBoat.cs",
@@ -128,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Member.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Models\\Member.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Models\\Member.cs",
@@ -140,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Boat.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Models\\Boat.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Models\\Boat.cs",
@@ -158,14 +173,14 @@
               "RelativeDocumentMoniker": "semesterProAlpha\\Program.cs",
               "ToolTip": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Program.cs",
               "RelativeToolTip": "semesterProAlpha\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T14:37:56.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GenericRepo.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Services\\GenericRepo.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Services\\GenericRepo.cs",
@@ -173,12 +188,11 @@
               "RelativeToolTip": "semesterProAlpha\\Services\\GenericRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:36:32.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T13:36:32.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "semesterProAlpha.csproj",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj",
               "RelativeDocumentMoniker": "semesterProAlpha\\semesterProAlpha.csproj",
@@ -190,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ChairMan.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Models\\ChairMan.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Models\\ChairMan.cs",
@@ -198,12 +212,11 @@
               "RelativeToolTip": "semesterProAlpha\\Models\\ChairMan.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAiwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:39:09.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T13:39:09.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "semesterProAlpha",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\semesterProAlpha.csproj",
               "RelativeDocumentMoniker": "semesterProAlpha\\semesterProAlpha.csproj",
@@ -214,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\madsp\\Desktop\\1SemesterPro\\semesterProAlpha\\semesterProAlpha\\Models\\Event.cs",
               "RelativeDocumentMoniker": "semesterProAlpha\\Models\\Event.cs",

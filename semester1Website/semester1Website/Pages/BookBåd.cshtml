@@ -12,9 +12,9 @@
 <!--Dropdown til båd type-->
 <form method="post">
     <div class="form-group">
-        <label for="båType">Vælg boatType</label>
+        <label for="båType">Vælg Båd Type</label>
         <select class="form-control" id="boatTypeForm" asp-for="ValgtboatType" onchange="hideShowFormFields()">
-            <option value="">-- Vælg en boatType --</option>
+            <option value="">-- Vælg en båd type --</option>
             @foreach (var boatType in Model.boatTyper)
             {
                 <option value="@boatType">@boatType</option>

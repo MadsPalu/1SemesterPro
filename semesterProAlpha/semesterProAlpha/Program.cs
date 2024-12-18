@@ -2,15 +2,19 @@
 using semester1Website.Services;
 using semesterProAlpha.Models;
 
+Console.WriteLine("json file path:");
 Console.WriteLine($"Using file path: {Path.GetFullPath(RepoInitializer.memberRepo.JsonHandler.FilePath)}");
+Console.WriteLine("BoatRepo counter:");
 Console.WriteLine(RepoInitializer.boatRepo.JsonHandler.Counter);
+Console.WriteLine("MemberRepo counter:");
 Console.WriteLine(RepoInitializer.memberRepo.JsonHandler.Counter);
+
 
 // Test Member class
 var member1 = new Member("John Doe", "12345678", "123 Main St");
 var member2 = new Member("Jane Smith", "87654321", "456 Elm St");
 var member3 = new Member("Alice Johnson", "55566677", "789 Oak Ave");
-Console.WriteLine("Member Test:");
+Console.WriteLine("\nMember Test:");
 Console.WriteLine(member1);
 Console.WriteLine(member2);
 Console.WriteLine(member3);
@@ -63,4 +67,25 @@ Console.WriteLine(boatRepo.Get(motorBoat.Id));
 Console.WriteLine(boatRepo.Get(rowBoat.Id));
 Console.WriteLine(boatRepo.Get(sailBoat.Id));
 
-Console.WriteLine("\nAlle tests blev gennemført succesfuldt.");
+// Test Booking class
+var booking1 = new Booking(motorBoat.Id, DateTime.Now, DateTime.Now.AddHours(2));
+var booking2 = new Booking(rowBoat.Id, DateTime.Now.AddDays(1), DateTime.Now.AddDays(1).AddHours(3));
+var booking3 = new Booking(sailBoat.Id, DateTime.Now.AddDays(2), DateTime.Now.AddDays(2).AddHours(4));
+Console.WriteLine("\nBooking Test:");
+Console.WriteLine(booking1);
+Console.WriteLine(booking2);
+Console.WriteLine(booking3);
+
+// Test BookingRepo
+var bookingRepo = new BookingRepo();
+bookingRepo.Lavbooking(booking1);
+bookingRepo.Lavbooking(booking2);
+bookingRepo.Lavbooking(booking3);
+Console.WriteLine("\nBookingRepo Test:");
+Console.WriteLine("All bookings:");
+foreach (var booking in bookingRepo.HentAlleBookinger())
+{
+    Console.WriteLine(booking);
+}
+
+Console.WriteLine("\nAlle tests blev kørt.");
