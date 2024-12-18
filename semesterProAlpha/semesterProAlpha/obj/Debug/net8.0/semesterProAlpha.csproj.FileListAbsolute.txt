@@ -43,3 +43,10 @@ C:\Users\madsp\Desktop\1SemesterPro\semesterProAlpha\semesterProAlpha\bin\Debug\
 C:\Users\madsp\Desktop\1SemesterPro\semesterProAlpha\semesterProAlpha\bin\Debug\net8.0\semesterProAlpha.pdb
 C:\Users\madsp\Desktop\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.genruntimeconfig.cache
 C:\Users\madsp\Desktop\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\ref\semesterProAlpha.dll
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\bin\Debug\net8.0\semesterProAlpha.exe
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\bin\Debug\net8.0\semesterProAlpha.deps.json
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\bin\Debug\net8.0\semesterProAlpha.runtimeconfig.json
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\bin\Debug\net8.0\semesterProAlpha.dll
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\bin\Debug\net8.0\semesterProAlpha.pdb
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\semesterProAlpha.genruntimeconfig.cache
+C:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semesterProAlpha\semesterProAlpha\obj\Debug\net8.0\ref\semesterProAlpha.dll

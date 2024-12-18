@@ -31,17 +31,10 @@ namespace semester1Website.Pages
     #endregion 
 
     #region Methods
-    public static void AddEditBlogPost(BlogPostModel blogPost)
-    {
-        blogPost.Title = "";
-        blogPost.ChairMan = "";
-        blogPost.Description = "";
-        blogPost.ImagePath = "";
-        
-    }
+    
     public void OnGet()
     {
-        BlogPost = new BlogPostModel(); // Undgå null reference
+        
     }
 
     public IActionResult OnPostEdit()
@@ -71,6 +64,7 @@ namespace semester1Website.Pages
     //ny BlogPost objekt
     BlogPost = new BlogPostModel
         {
+            Id = Id,
             Title = Title,
             ChairMan = ChairMan,
             ImagePath = ImagePath,

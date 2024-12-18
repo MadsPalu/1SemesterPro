@@ -9,63 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = semester1Website
 build_property.RootNamespace = semester1Website
-build_property.ProjectDir = C:\Users\madsp\Desktop\1SemesterPro\semester1Website\semester1Website\
+build_property.ProjectDir = c:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semester1Website\semester1Website\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\madsp\Desktop\1SemesterPro\semester1Website\semester1Website
+build_property.MSBuildProjectDirectory = c:\Users\frede\OneDrive\Dokumenter\GitHub\1SemesterPro\semester1Website\semester1Website
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/Begivenheder.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Begivenheder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVnaXZlbmhlZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/Blog.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Blog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/BookBåd.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/BookBåd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0LDpWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/Error.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/Index.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/log båd.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/log båd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9nIGLDpWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/MeldDigInd.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/MeldDigInd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVsZERpZ0luZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/Privacy.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/RegistrerSkade.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/RegistrerSkade.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmVyU2thZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/_ViewImports.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/_ViewStart.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/madsp/Desktop/1SemesterPro/semester1Website/semester1Website/Pages/Shared/_Layout.cshtml]
+[c:/Users/frede/OneDrive/Dokumenter/GitHub/1SemesterPro/semester1Website/semester1Website/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ai5i0ic93l
