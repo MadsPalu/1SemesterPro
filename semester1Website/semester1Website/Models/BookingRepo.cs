@@ -9,8 +9,8 @@ namespace semester1Website.Models
         {
             if (booking._startTid >= booking._slutTid)
             {
-                Console.WriteLine("Fejl: Starttidspunkt skal være før sluttidspunkt.");
-                return;
+                throw new ArgumentNullException("Starttidspunkt skal være før sluttidspunkt");
+
             }
             _bookinger.Add(booking);
             Console.WriteLine($"Booking oprettet med Booking Id: {booking._bookingId}\nog Båd Id: {booking._boatId}");
